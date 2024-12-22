@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_z6IjkJ9KEe6Gr7uijv9afw">
+  <modelElement href="TallerPractico02.uml#_z230MJ9KEe6Gr7uijv9afw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_2GXxoJ9KEe6Gr7uijv9afw" sourceAnchor="190.0,0.0" targetAnchor="47.0,56.0" enclosingItem="_1WqL8J9KEe6Gr7uijv9afw" containedItem="_2GZm0J9KEe6Gr7uijv9afw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_26Z2oJ9KEe6Gr7uijv9afw" sourceAnchor="332.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_1WE9IJ9KEe6Gr7uijv9afw" containedItem="_26br0J9KEe6Gr7uijv9afw">
+    <bendpoints xmi:id="_3BmDwJ9KEe6Gr7uijv9afw" sourceY="-429" targetX="116" targetY="29"/>
+    <bendpoints xmi:id="_3BmDwZ9KEe6Gr7uijv9afw" sourceX="-116" sourceY="-429" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_26c58J9KEe6Gr7uijv9afw" sourceAnchor="124.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_1WE9IJ9KEe6Gr7uijv9afw" containedItem="_26hLYJ9KEe6Gr7uijv9afw">
+    <bendpoints xmi:id="_3Bmq0J9KEe6Gr7uijv9afw" sourceY="-183" targetX="-30" targetY="29"/>
+    <bendpoints xmi:id="_3Bmq0Z9KEe6Gr7uijv9afw" sourceX="30" sourceY="-183" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_26gkUJ9KEe6Gr7uijv9afw" sourceAnchor="0.0,87.0" targetAnchor="133.0,156.0" target="_26lc0J9KEe6Gr7uijv9afw" source="_26hLYJ9KEe6Gr7uijv9afw">
+    <modelElement href="TallerPractico02.uml#_0PJKQJ9KEe6Gr7uijv9afw"/>
+    <bendpoints xmi:id="_3BmDwp9KEe6Gr7uijv9afw" sourceX="-209" targetY="85"/>
+    <stereotypes xmi:id="_26gkUZ9KEe6Gr7uijv9afw" name="Reference">
+      <modelElement href="TallerPractico02.uml#_0PJKQp9KEe6Gr7uijv9afw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_26gkUp9KEe6Gr7uijv9afw" text="">
+      <visualProperties xmi:id="_3Bn48J9KEe6Gr7uijv9afw" position="0.9999999999999716,-57.49999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_26gkU59KEe6Gr7uijv9afw" aggregationKind="NONE" name="">
+      <modelElement href="TallerPractico02.uml#_0PJKQZ9KEe6Gr7uijv9afw"/>
+      <visualProperties xmi:id="_3BnR4J9KEe6Gr7uijv9afw" position="-15.5,2.5"/>
+      <visibility xmi:id="_26gkVJ9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26gkVZ9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_26gkVp9KEe6Gr7uijv9afw" aggregationKind="NONE" name="tareaActual" navigable="true">
+      <modelElement href="TallerPractico02.uml#_0Ox94Z9KEe6Gr7uijv9afw"/>
+      <visualProperties xmi:id="_3BogAJ9KEe6Gr7uijv9afw" position="41.0,39.5"/>
+      <stereotypes xmi:id="_-OHUwKAOEe67BKxtRLYeZg" name="LegacyStyledElement">
+        <modelElement href="TallerPractico02.uml#_0Oyk8J9KEe6Gr7uijv9afw"/>
+      </stereotypes>
+      <visibility xmi:id="_26gkV59KEe6Gr7uijv9afw" label="~"/>
+      <cardinality xmi:id="_26gkWJ9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_26jAkJ9KEe6Gr7uijv9afw" sourceAnchor="133.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_1WE9IJ9KEe6Gr7uijv9afw" containedItem="_26lc0J9KEe6Gr7uijv9afw">
+    <bendpoints xmi:id="_3Bmq0p9KEe6Gr7uijv9afw" sourceY="-29" targetX="-363" targetY="29"/>
+    <bendpoints xmi:id="_3Bmq059KEe6Gr7uijv9afw" sourceX="363" sourceY="-29" targetY="29"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2GZm0J9KEe6Gr7uijv9afw" containment="_2GXxoJ9KEe6Gr7uijv9afw" name="ExpresionPosFija" package="_1WqL8J9KEe6Gr7uijv9afw">
+    <modelElement href="TallerPractico02.uml#_0Mfe4J9KEe6Gr7uijv9afw"/>
+    <visualProperties xmi:id="_2GZm0Z9KEe6Gr7uijv9afw" position="819.0,257.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2GZm0p9KEe6Gr7uijv9afw" label="+"/>
+    <operations xmi:id="_2GZm059KEe6Gr7uijv9afw" name="main" staticOperation="true">
+      <modelElement href="TallerPractico02.uml#_0MgF8J9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_2GZm1J9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_2GZm1Z9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2GZm1p9KEe6Gr7uijv9afw" name="args">
+        <modelElement href="TallerPractico02.uml#_0MgtAJ9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_2GZm159KEe6Gr7uijv9afw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_2GZm2J9KEe6Gr7uijv9afw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2GZm2Z9KEe6Gr7uijv9afw" name="resolverExpresionPostFija" staticOperation="true">
+      <modelElement href="TallerPractico02.uml#_0OAh0J9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_2GZm2p9KEe6Gr7uijv9afw" label="-"/>
+      <cardinality xmi:id="_2GZm259KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2GZm3J9KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0OBI4J9KEe6Gr7uijv9afw"/>
+        <type xmi:id="_2GZm3Z9KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2GZm3p9KEe6Gr7uijv9afw" name="pila">
+        <modelElement href="TallerPractico02.uml#_0OAh0Z9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_2GZm359KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+        <type xmi:id="_2GZm4J9KEe6Gr7uijv9afw" name="Pila">
+          <modelElement href="TallerPractico02.uml#_0MrsIJ9KEe6Gr7uijv9afw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2GZm4Z9KEe6Gr7uijv9afw" name="expresion">
+        <modelElement href="TallerPractico02.uml#_0OAh0p9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_2GZm4p9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+        <type xmi:id="_2GZm459KEe6Gr7uijv9afw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_1WqL8J9KEe6Gr7uijv9afw" containments="_2GXxoJ9KEe6Gr7uijv9afw" classes="_2GZm0J9KEe6Gr7uijv9afw" name="tallerPila">
+    <modelElement href="TallerPractico02.uml#_0L_voJ9KEe6Gr7uijv9afw"/>
+    <visualProperties xmi:id="_1WqL8Z9KEe6Gr7uijv9afw" position="962.0,144.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_26br0J9KEe6Gr7uijv9afw" containment="_26Z2oJ9KEe6Gr7uijv9afw" name="Simulacion" package="_1WE9IJ9KEe6Gr7uijv9afw">
+    <modelElement href="TallerPractico02.uml#_0MmzoJ9KEe6Gr7uijv9afw"/>
+    <visualProperties xmi:id="_26br0Z9KEe6Gr7uijv9afw" position="328.0,652.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_26br0p9KEe6Gr7uijv9afw" label="+"/>
+    <operations xmi:id="_26br059KEe6Gr7uijv9afw" name="main" staticOperation="true">
+      <modelElement href="TallerPractico02.uml#_0MnasJ9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26br1J9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26br1Z9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_26br1p9KEe6Gr7uijv9afw" name="args">
+        <modelElement href="TallerPractico02.uml#_0MnasZ9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_26br159KEe6Gr7uijv9afw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_26br2J9KEe6Gr7uijv9afw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_26br2Z9KEe6Gr7uijv9afw" name="simulacion" staticOperation="true">
+      <modelElement href="TallerPractico02.uml#_0MoBwZ9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26br2p9KEe6Gr7uijv9afw" label="-"/>
+      <cardinality xmi:id="_26br259KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_26br3J9KEe6Gr7uijv9afw" name="numeroSegundos">
+        <modelElement href="TallerPractico02.uml#_0MoBwp9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_26br3Z9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+        <type xmi:id="_26br3p9KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_26br359KEe6Gr7uijv9afw" name="paginasPorMinuto">
+        <modelElement href="TallerPractico02.uml#_0MoBw59KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_26br4J9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+        <type xmi:id="_26br4Z9KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_26br4p9KEe6Gr7uijv9afw" name="nuevaTareaImpresion" staticOperation="true">
+      <modelElement href="TallerPractico02.uml#_0Moo0J9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26br459KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26br5J9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_26br5Z9KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0Moo0Z9KEe6Gr7uijv9afw"/>
+        <type xmi:id="_26br5p9KEe6Gr7uijv9afw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_26hLYJ9KEe6Gr7uijv9afw" containment="_26c58J9KEe6Gr7uijv9afw" name="Impresora" package="_1WE9IJ9KEe6Gr7uijv9afw" associationsOut="_26gkUJ9KEe6Gr7uijv9afw">
+    <modelElement href="TallerPractico02.uml#_0M5ukJ9KEe6Gr7uijv9afw"/>
+    <visualProperties xmi:id="_26hLYZ9KEe6Gr7uijv9afw" position="390.0,406.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_26hLYp9KEe6Gr7uijv9afw" label="+"/>
+    <attributes xmi:id="_26hLY59KEe6Gr7uijv9afw" name="tasaPaginas">
+      <modelElement href="TallerPractico02.uml#_0OwvwJ9KEe6Gr7uijv9afw"/>
+      <stereotypes xmi:id="_26hLZJ9KEe6Gr7uijv9afw" name="LegacyStyledElement">
+        <modelElement href="TallerPractico02.uml#_0OxW0J9KEe6Gr7uijv9afw"/>
+      </stereotypes>
+      <visibility xmi:id="_26hLZZ9KEe6Gr7uijv9afw" label="-"/>
+      <cardinality xmi:id="_26hLZp9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <type xmi:id="_26hLZ59KEe6Gr7uijv9afw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_26hLaJ9KEe6Gr7uijv9afw" name="tiempoRestante">
+      <modelElement href="TallerPractico02.uml#_0OxW0Z9KEe6Gr7uijv9afw"/>
+      <stereotypes xmi:id="_26hLaZ9KEe6Gr7uijv9afw" name="LegacyStyledElement">
+        <modelElement href="TallerPractico02.uml#_0Ox94J9KEe6Gr7uijv9afw"/>
+      </stereotypes>
+      <visibility xmi:id="_26hLap9KEe6Gr7uijv9afw" label="-"/>
+      <cardinality xmi:id="_26hLa59KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <type xmi:id="_26hLbJ9KEe6Gr7uijv9afw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_26hLbZ9KEe6Gr7uijv9afw" name="tareaActual">
+      <modelElement href="TallerPractico02.uml#_0Ox94Z9KEe6Gr7uijv9afw"/>
+      <stereotypes xmi:id="_-OhkcKAOEe67BKxtRLYeZg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-OknwKAOEe67BKxtRLYeZg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-Ol14KAOEe67BKxtRLYeZg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_26hLb59KEe6Gr7uijv9afw" label="~"/>
+      <cardinality xmi:id="_26hLcJ9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <type xmi:id="_26hLcZ9KEe6Gr7uijv9afw" name="Tarea">
+        <modelElement href="TallerPractico02.uml#_0NEtsJ9KEe6Gr7uijv9afw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_26hLcp9KEe6Gr7uijv9afw" name="Impresora">
+      <modelElement href="TallerPractico02.uml#_0M6VoJ9KEe6Gr7uijv9afw"/>
+      <keywords xmi:id="_26hLc59KEe6Gr7uijv9afw" keyword="create"/>
+      <visibility xmi:id="_26hLdJ9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26hLdZ9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_26hLdp9KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0M6Vo59KEe6Gr7uijv9afw"/>
+        <type xmi:id="_26hLd59KEe6Gr7uijv9afw" name="Impresora">
+          <modelElement href="TallerPractico02.uml#_0M5ukJ9KEe6Gr7uijv9afw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_26hLeJ9KEe6Gr7uijv9afw" name="Impresora">
+      <modelElement href="TallerPractico02.uml#_0M68sJ9KEe6Gr7uijv9afw"/>
+      <keywords xmi:id="_26hLeZ9KEe6Gr7uijv9afw" keyword="create"/>
+      <visibility xmi:id="_26hLep9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26hLe59KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_26hLfJ9KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0M68tJ9KEe6Gr7uijv9afw"/>
+        <type xmi:id="_26hLfZ9KEe6Gr7uijv9afw" name="Impresora">
+          <modelElement href="TallerPractico02.uml#_0M5ukJ9KEe6Gr7uijv9afw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_26hLfp9KEe6Gr7uijv9afw" name="paginas">
+        <modelElement href="TallerPractico02.uml#_0M68sZ9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_26hLf59KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+        <type xmi:id="_26hLgJ9KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_26hLgZ9KEe6Gr7uijv9afw" name="tictac">
+      <modelElement href="TallerPractico02.uml#_0M68tZ9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26hLgp9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26hLg59KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_26hLhJ9KEe6Gr7uijv9afw" name="ocupada">
+      <modelElement href="TallerPractico02.uml#_0M7jwJ9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26hLhZ9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26hLhp9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_26hLh59KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0M7jwZ9KEe6Gr7uijv9afw"/>
+        <type xmi:id="_26hLiJ9KEe6Gr7uijv9afw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_26hLiZ9KEe6Gr7uijv9afw" name="iniciarNueva">
+      <modelElement href="TallerPractico02.uml#_0OMvEJ9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26hLip9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26hLi59KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_26hLjJ9KEe6Gr7uijv9afw" name="nuevaTarea">
+        <modelElement href="TallerPractico02.uml#_0OMvEZ9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_26hLjZ9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+        <type xmi:id="_26hLjp9KEe6Gr7uijv9afw" name="Tarea">
+          <modelElement href="TallerPractico02.uml#_0NEtsJ9KEe6Gr7uijv9afw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_26lc0J9KEe6Gr7uijv9afw" containment="_26jAkJ9KEe6Gr7uijv9afw" name="Tarea" package="_1WE9IJ9KEe6Gr7uijv9afw" associationsIn="_26gkUJ9KEe6Gr7uijv9afw">
+    <modelElement href="TallerPractico02.uml#_0NEtsJ9KEe6Gr7uijv9afw"/>
+    <visualProperties xmi:id="_26lc0Z9KEe6Gr7uijv9afw" position="48.0,252.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_26lc0p9KEe6Gr7uijv9afw" label="+"/>
+    <attributes xmi:id="_26lc059KEe6Gr7uijv9afw" name="marcaTiempo">
+      <modelElement href="TallerPractico02.uml#_0O1oQJ9KEe6Gr7uijv9afw"/>
+      <stereotypes xmi:id="_26lc1J9KEe6Gr7uijv9afw" name="LegacyStyledElement">
+        <modelElement href="TallerPractico02.uml#_0O2PUJ9KEe6Gr7uijv9afw"/>
+      </stereotypes>
+      <visibility xmi:id="_26lc1Z9KEe6Gr7uijv9afw" label="-"/>
+      <cardinality xmi:id="_26lc1p9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <type xmi:id="_26lc159KEe6Gr7uijv9afw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_26lc2J9KEe6Gr7uijv9afw" name="paginas">
+      <modelElement href="TallerPractico02.uml#_0O2PUZ9KEe6Gr7uijv9afw"/>
+      <stereotypes xmi:id="_26lc2Z9KEe6Gr7uijv9afw" name="LegacyStyledElement">
+        <modelElement href="TallerPractico02.uml#_0O22YJ9KEe6Gr7uijv9afw"/>
+      </stereotypes>
+      <visibility xmi:id="_26lc2p9KEe6Gr7uijv9afw" label="-"/>
+      <cardinality xmi:id="_26lc259KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <type xmi:id="_26lc3J9KEe6Gr7uijv9afw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_26lc3Z9KEe6Gr7uijv9afw" name="Tarea">
+      <modelElement href="TallerPractico02.uml#_0NFUwJ9KEe6Gr7uijv9afw"/>
+      <keywords xmi:id="_26lc3p9KEe6Gr7uijv9afw" keyword="create"/>
+      <visibility xmi:id="_26lc359KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26lc4J9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_26lc4Z9KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0NF70J9KEe6Gr7uijv9afw"/>
+        <type xmi:id="_26lc4p9KEe6Gr7uijv9afw" name="Tarea">
+          <modelElement href="TallerPractico02.uml#_0NEtsJ9KEe6Gr7uijv9afw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_26lc459KEe6Gr7uijv9afw" name="tiempo">
+        <modelElement href="TallerPractico02.uml#_0NFUwZ9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_26lc5J9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+        <type xmi:id="_26lc5Z9KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_26lc5p9KEe6Gr7uijv9afw" name="obtenerMarca">
+      <modelElement href="TallerPractico02.uml#_0NF70Z9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26lc559KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26lc6J9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_26lc6Z9KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0NF70p9KEe6Gr7uijv9afw"/>
+        <type xmi:id="_26lc6p9KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_26lc659KEe6Gr7uijv9afw" name="obtenerPaginas">
+      <modelElement href="TallerPractico02.uml#_0NF7059KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26lc7J9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26lc7Z9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_26lc7p9KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0NF71J9KEe6Gr7uijv9afw"/>
+        <type xmi:id="_26lc759KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_26lc8J9KEe6Gr7uijv9afw" name="tiempoEspera">
+      <modelElement href="TallerPractico02.uml#_0NGi4J9KEe6Gr7uijv9afw"/>
+      <visibility xmi:id="_26lc8Z9KEe6Gr7uijv9afw" label="+"/>
+      <cardinality xmi:id="_26lc8p9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_26lc859KEe6Gr7uijv9afw">
+        <modelElement href="TallerPractico02.uml#_0NGi4p9KEe6Gr7uijv9afw"/>
+        <type xmi:id="_26lc9J9KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_26lc9Z9KEe6Gr7uijv9afw" name="tiempoActual">
+        <modelElement href="TallerPractico02.uml#_0NGi4Z9KEe6Gr7uijv9afw"/>
+        <cardinality xmi:id="_26lc9p9KEe6Gr7uijv9afw" label="1" max="1" min="1"/>
+        <type xmi:id="_26lc959KEe6Gr7uijv9afw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_1WE9IJ9KEe6Gr7uijv9afw" containments="_26Z2oJ9KEe6Gr7uijv9afw _26c58J9KEe6Gr7uijv9afw _26jAkJ9KEe6Gr7uijv9afw" classes="_26br0J9KEe6Gr7uijv9afw _26hLYJ9KEe6Gr7uijv9afw _26lc0J9KEe6Gr7uijv9afw" name="tallerCola">
+    <modelElement href="TallerPractico02.uml#_0MCy8J9KEe6Gr7uijv9afw"/>
+    <visualProperties xmi:id="_1WE9IZ9KEe6Gr7uijv9afw" position="497.0,136.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_7nP6wLuaEe6CYP2eCisbAQ" name="ED2023_2_CPE8_TallerPractico04">
+    <eAnnotations xmi:id="_8El-ELuaEe6CYP2eCisbAQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_8EmlILuaEe6CYP2eCisbAQ" source="codegen">
+        <details xmi:id="_8EmlIbuaEe6CYP2eCisbAQ" key="codegenDirectory" value="/ED2023-2-CPE8-TallerPractico04/src"/>
+        <details xmi:id="_8rOgQLuaEe6CYP2eCisbAQ" key="AssociatedSourceCode" value="/ED2023-2-CPE8-TallerPractico04/src/tadCola/NodoCola.java;3704278481/1;/ED2023-2-CPE8-TallerPractico04/src/Programas/TestArbolBB.java;877078645/1;/ED2023-2-CPE8-TallerPractico04/src/tadCola/Cola.java;1017679938/1;/ED2023-2-CPE8-TallerPractico04/src/tadCola/ColaVacia.java;3056295616/1;/ED2023-2-CPE8-TallerPractico04/src/Programas/Persona.java;1124039238/1;/ED2023-2-CPE8-TallerPractico04/src/tadCola/TadCola.java;1724544171/1;/ED2023-2-CPE8-TallerPractico04/src/tadarbolbinario/Arbol.java;3455774649/1;/ED2023-2-CPE8-TallerPractico04/src/tadarbolbinario/ArbolAVL.java;3092221782/1;/ED2023-2-CPE8-TallerPractico04/src/tadarbolbinario/ArbolBB.java;122102270/1;/ED2023-2-CPE8-TallerPractico04/src/tadarbolbinario/NodoArbol.java;2688453664/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_8VWW4LuaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_8VW98LuaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_8VW98buaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_8VW98ruaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_8VW987uaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_8VW99LuaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_8VW99buaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_8VW99ruaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_8VXlALuaEe6CYP2eCisbAQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8VaBQLuaEe6CYP2eCisbAQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_8VaBQbuaEe6CYP2eCisbAQ" name="io">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_8cjyILuaEe6CYP2eCisbAQ" name="Serializable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_8eFcILuaEe6CYP2eCisbAQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_8eFcIbuaEe6CYP2eCisbAQ" name="Exception"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_8eGqQLuaEe6CYP2eCisbAQ" name="Comparable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8eXI8buaEe6CYP2eCisbAQ" name="StringBuffer"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8VdEkLuaEe6CYP2eCisbAQ" name="tadCola">
+      <packagedElement xmi:type="uml:Class" xmi:id="_8WXDgLuaEe6CYP2eCisbAQ" name="NodoCola">
+        <ownedAttribute xmi:id="_8erSALuaEe6CYP2eCisbAQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_8er5ELuaEe6CYP2eCisbAQ" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_8er5EbuaEe6CYP2eCisbAQ" name="dato" visibility="package" type="_8eBxwLuaEe6CYP2eCisbAQ" association="_8fcHALuaEe6CYP2eCisbAQ"/>
+        <ownedAttribute xmi:id="_8esgIbuaEe6CYP2eCisbAQ" name="siguiente" visibility="package" type="_8WXDgLuaEe6CYP2eCisbAQ" association="_8fcuELuaEe6CYP2eCisbAQ"/>
+        <interfaceRealization xmi:id="_8eBKsLuaEe6CYP2eCisbAQ" client="_8WXDgLuaEe6CYP2eCisbAQ" supplier="_8cjyILuaEe6CYP2eCisbAQ" contract="_8cjyILuaEe6CYP2eCisbAQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8e-0ALuaEe6CYP2eCisbAQ" name="NodoCola" specification="_8eC_4LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8e-0AbuaEe6CYP2eCisbAQ" name="elemento" type="_8eBxwLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8e-0AruaEe6CYP2eCisbAQ" name="n" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8e-0A7uaEe6CYP2eCisbAQ" type="_8WXDgLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>dato = elemento; &#xD;
+		siguiente = n; &#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8eC_4LuaEe6CYP2eCisbAQ" name="NodoCola" visibility="package" method="_8e-0ALuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8eC_47uaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8eC_5LuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8eC_4buaEe6CYP2eCisbAQ" name="elemento" type="_8eBxwLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eC_4ruaEe6CYP2eCisbAQ" name="n" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eC_5buaEe6CYP2eCisbAQ" type="_8WXDgLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_8WoJQLuaEe6CYP2eCisbAQ" name="Cola">
+        <generalization xmi:id="_8eEOALuaEe6CYP2eCisbAQ" general="_8cjyILuaEe6CYP2eCisbAQ"/>
+        <ownedAttribute xmi:id="_8Wu28LuaEe6CYP2eCisbAQ" name="nombre" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_8Wp-cLuaEe6CYP2eCisbAQ" name="colaVacia">
+          <ownedParameter xmi:id="_8Wp-cbuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8WqlgLuaEe6CYP2eCisbAQ" name="eliminarCola"/>
+        <ownedOperation xmi:id="_8WqlgbuaEe6CYP2eCisbAQ" name="primero" raisedException="_8WxTMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eEOAbuaEe6CYP2eCisbAQ" type="_8eBxwLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8WrzoLuaEe6CYP2eCisbAQ" name="desencolar" raisedException="_8WxTMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eE1EruaEe6CYP2eCisbAQ" type="_8eBxwLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8WsasLuaEe6CYP2eCisbAQ" name="quitarPrimero" raisedException="_8WxTMLuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8Wto0LuaEe6CYP2eCisbAQ" name="mostrarEstadoCola"/>
+        <ownedOperation xmi:id="_8Wto0buaEe6CYP2eCisbAQ" name="imprimirCola"/>
+        <ownedOperation xmi:id="_8Wto0ruaEe6CYP2eCisbAQ" name="numElemCola">
+          <ownedParameter xmi:id="_8WuP4LuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8WuP4buaEe6CYP2eCisbAQ" name="invertirCola" raisedException="_8WxTMLuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8eE1ELuaEe6CYP2eCisbAQ" name="encolar">
+          <ownedParameter xmi:id="_8eE1EbuaEe6CYP2eCisbAQ" name="x" type="_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8WxTMLuaEe6CYP2eCisbAQ" name="ColaVacia">
+        <generalization xmi:id="_8eGDMbuaEe6CYP2eCisbAQ" general="_8eFcIbuaEe6CYP2eCisbAQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fGIwLuaEe6CYP2eCisbAQ" name="ColaVacia" specification="_8WyhULuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fGIwbuaEe6CYP2eCisbAQ" name="msg">
+            <eAnnotations xmi:id="_8fGIwruaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_8fGIw7uaEe6CYP2eCisbAQ" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fGIxLuaEe6CYP2eCisbAQ" type="_8WxTMLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super (msg);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8WyhULuaEe6CYP2eCisbAQ" name="ColaVacia" method="_8fGIwLuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8WyhUruaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8WyhU7uaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8WyhUbuaEe6CYP2eCisbAQ" name="msg">
+            <eAnnotations xmi:id="_8WzIYbuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_8WzIYruaEe6CYP2eCisbAQ" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8WyhVLuaEe6CYP2eCisbAQ" type="_8WxTMLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8W6dILuaEe6CYP2eCisbAQ" name="TadCola">
+        <ownedAttribute xmi:id="_8etuQruaEe6CYP2eCisbAQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_8euVULuaEe6CYP2eCisbAQ" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_8euVUbuaEe6CYP2eCisbAQ" name="principio" visibility="private" type="_8WXDgLuaEe6CYP2eCisbAQ" association="_8fdVIbuaEe6CYP2eCisbAQ"/>
+        <ownedAttribute xmi:id="_8eu8YruaEe6CYP2eCisbAQ" name="fin" visibility="private" type="_8WXDgLuaEe6CYP2eCisbAQ" association="_8fd8MbuaEe6CYP2eCisbAQ"/>
+        <ownedAttribute xmi:id="_8evjcruaEe6CYP2eCisbAQ" name="nombre" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_8dEvgLuaEe6CYP2eCisbAQ" client="_8W6dILuaEe6CYP2eCisbAQ" supplier="_8WoJQLuaEe6CYP2eCisbAQ" contract="_8WoJQLuaEe6CYP2eCisbAQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fGv2buaEe6CYP2eCisbAQ" name="TadCola" specification="_8W8SULuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fGv2ruaEe6CYP2eCisbAQ" type="_8W6dILuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this(null, null, &quot;&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fGv27uaEe6CYP2eCisbAQ" name="TadCola" specification="_8dGksLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fGv3LuaEe6CYP2eCisbAQ" name="principio" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fGv3buaEe6CYP2eCisbAQ" name="fin" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fGv3ruaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fGv37uaEe6CYP2eCisbAQ" type="_8W6dILuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.principio = principio;&#xD;
+		this.fin = fin;&#xD;
+		this.nombre = nombre;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fHW4LuaEe6CYP2eCisbAQ" name="TadCola" specification="_8dIZ4buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fHW4buaEe6CYP2eCisbAQ" name="principio" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fHW4ruaEe6CYP2eCisbAQ" name="fin" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fHW47uaEe6CYP2eCisbAQ" type="_8W6dILuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this(principio, fin, &quot;&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fHW5LuaEe6CYP2eCisbAQ" name="TadCola" specification="_8W-HgLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fHW5buaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fHW5ruaEe6CYP2eCisbAQ" type="_8W6dILuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this(null, null, nombre);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fHW57uaEe6CYP2eCisbAQ" name="colaVacia" specification="_8W_VoLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fHW6LuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return principio==null;	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fHW6buaEe6CYP2eCisbAQ" name="eliminarCola" specification="_8W_VoruaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>principio = null;&#xD;
+		fin = null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fHW6ruaEe6CYP2eCisbAQ" name="primero" specification="_8W_Vo7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fHW67uaEe6CYP2eCisbAQ" type="_8eBxwLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>if (colaVacia ())&#xD;
+ 		throw new ColaVacia (&quot;La cola está vacía&quot;);&#xD;
+ 	return principio.dato;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fHW7LuaEe6CYP2eCisbAQ" name="encolar" specification="_8eIfcbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fHW7buaEe6CYP2eCisbAQ" name="x" type="_8eBxwLuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>NodoCola&lt;T> aux;&#xD;
+     aux = new NodoCola&lt;>(x,null);&#xD;
+     if (principio == null) {&#xD;
+     	principio = aux;&#xD;
+     	fin = aux;&#xD;
+     }&#xD;
+     else {&#xD;
+     	fin.siguiente = aux;&#xD;
+     	fin = aux;&#xD;
+     }&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fH98LuaEe6CYP2eCisbAQ" name="desencolar" specification="_8W_8sLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fH98buaEe6CYP2eCisbAQ" type="_8eBxwLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>T resultado;&#xD;
+     if (colaVacia ()) {  &#xD;
+       throw new ColaVacia (&quot;Desencolar: La cola está vacía&quot;);&#xD;
+     }&#xD;
+     resultado = principio.dato;&#xD;
+     principio = principio.siguiente;&#xD;
+     if (principio == null)&#xD;
+     	fin = null;&#xD;
+     return resultado;&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fH98ruaEe6CYP2eCisbAQ" name="quitarPrimero" specification="_8XAjwLuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>if (colaVacia ()) {  &#xD;
+	    	throw new ColaVacia (&quot;Quitar primero: La cola está vacía&quot;);&#xD;
+	    }&#xD;
+	    principio = principio.siguiente;&#xD;
+	    if (principio == null)&#xD;
+	    	fin = null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fH987uaEe6CYP2eCisbAQ" name="mostrarEstadoCola" specification="_8XBK0LuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Estado de la cola:&quot;);&#xD;
+		System.out.println(&quot;Número de elementos: &quot;+this.numElemCola());&#xD;
+		if(!colaVacia()) {&#xD;
+	        System.out.println(&quot;Primer elemento - Clave: &quot;+principio.dato);&#xD;
+	        System.out.println(&quot;Último elemento - Clave: &quot;+fin.dato);&#xD;
+		}&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fH99LuaEe6CYP2eCisbAQ" name="imprimirCola" specification="_8XBK0buaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>NodoCola&lt;T> aux;&#xD;
+     System.out.print (&quot;Estado de la cola &quot; + this.nombre + &quot;: &quot;);&#xD;
+     aux = principio;&#xD;
+     while (aux != null) {&#xD;
+       System.out.print (aux.dato + &quot; &quot;);&#xD;
+       aux = aux.siguiente;&#xD;
+     }&#xD;
+     System.out.println ();&#xD;
+   </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fH99buaEe6CYP2eCisbAQ" name="numElemCola" specification="_8XBK0ruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fH99ruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>NodoCola&lt;T> aux;	&#xD;
+     int resul;&#xD;
+     &#xD;
+       aux = principio;&#xD;
+       resul = 0;&#xD;
+       while (aux != null) {&#xD;
+     	++resul;&#xD;
+     	aux = aux.siguiente;&#xD;
+       }&#xD;
+       return resul;&#xD;
+     </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fH997uaEe6CYP2eCisbAQ" name="invertirCola" specification="_8XBK1LuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>T elem;&#xD;
+		if (!colaVacia()) {&#xD;
+			elem = desencolar();	&#xD;
+			invertirCola();&#xD;
+			encolar(elem);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8W8SULuaEe6CYP2eCisbAQ" name="TadCola" method="_8fGv2buaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8W85YLuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8W85YbuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8W85YruaEe6CYP2eCisbAQ" type="_8W6dILuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8W-HgLuaEe6CYP2eCisbAQ" name="TadCola" method="_8fHW5LuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8W-ukLuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8W-ukbuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8W-HgbuaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8W-ukruaEe6CYP2eCisbAQ" type="_8W6dILuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8W_VoLuaEe6CYP2eCisbAQ" name="colaVacia" method="_8fHW57uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8W_VobuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8W_VoruaEe6CYP2eCisbAQ" name="eliminarCola" method="_8fHW6buaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8W_Vo7uaEe6CYP2eCisbAQ" name="primero" method="_8fHW6ruaEe6CYP2eCisbAQ" raisedException="_8WxTMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eIfcLuaEe6CYP2eCisbAQ" type="_8eBxwLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8W_8sLuaEe6CYP2eCisbAQ" name="desencolar" method="_8fH98LuaEe6CYP2eCisbAQ" raisedException="_8WxTMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eJGgLuaEe6CYP2eCisbAQ" type="_8eBxwLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XAjwLuaEe6CYP2eCisbAQ" name="quitarPrimero" method="_8fH98ruaEe6CYP2eCisbAQ" raisedException="_8WxTMLuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XBK0LuaEe6CYP2eCisbAQ" name="mostrarEstadoCola" method="_8fH987uaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XBK0buaEe6CYP2eCisbAQ" name="imprimirCola" method="_8fH99LuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XBK0ruaEe6CYP2eCisbAQ" name="numElemCola" method="_8fH99buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8XBK07uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XBK1LuaEe6CYP2eCisbAQ" name="invertirCola" method="_8fH997uaEe6CYP2eCisbAQ" raisedException="_8WxTMLuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8dGksLuaEe6CYP2eCisbAQ" name="TadCola" method="_8fGv27uaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8dHLw7uaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8dHLxLuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8dHLwLuaEe6CYP2eCisbAQ" name="principio" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8dHLwbuaEe6CYP2eCisbAQ" name="fin" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8dHLwruaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8dHLxbuaEe6CYP2eCisbAQ" type="_8W6dILuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dIZ4buaEe6CYP2eCisbAQ" name="TadCola" method="_8fHW4LuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8dJA8LuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8dJA8buaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8dIZ4ruaEe6CYP2eCisbAQ" name="principio" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8dIZ47uaEe6CYP2eCisbAQ" name="fin" type="_8WXDgLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8dJA8ruaEe6CYP2eCisbAQ" type="_8W6dILuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eIfcbuaEe6CYP2eCisbAQ" name="encolar" method="_8fHW7LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eIfcruaEe6CYP2eCisbAQ" name="x" type="_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8eBxwLuaEe6CYP2eCisbAQ" name="T"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8fcHALuaEe6CYP2eCisbAQ" name="" memberEnd="_8fcHAbuaEe6CYP2eCisbAQ _8er5EbuaEe6CYP2eCisbAQ">
+        <ownedEnd xmi:id="_8fcHAbuaEe6CYP2eCisbAQ" name="" type="_8WXDgLuaEe6CYP2eCisbAQ" association="_8fcHALuaEe6CYP2eCisbAQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8fcuELuaEe6CYP2eCisbAQ" name="" memberEnd="_8fcuEbuaEe6CYP2eCisbAQ _8esgIbuaEe6CYP2eCisbAQ">
+        <ownedEnd xmi:id="_8fcuEbuaEe6CYP2eCisbAQ" name="" type="_8WXDgLuaEe6CYP2eCisbAQ" association="_8fcuELuaEe6CYP2eCisbAQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8fdVIbuaEe6CYP2eCisbAQ" name="" memberEnd="_8fdVIruaEe6CYP2eCisbAQ _8euVUbuaEe6CYP2eCisbAQ">
+        <ownedEnd xmi:id="_8fdVIruaEe6CYP2eCisbAQ" name="" type="_8W6dILuaEe6CYP2eCisbAQ" association="_8fdVIbuaEe6CYP2eCisbAQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8fd8MbuaEe6CYP2eCisbAQ" name="" memberEnd="_8fd8MruaEe6CYP2eCisbAQ _8eu8YruaEe6CYP2eCisbAQ">
+        <ownedEnd xmi:id="_8fd8MruaEe6CYP2eCisbAQ" name="" type="_8W6dILuaEe6CYP2eCisbAQ" association="_8fd8MbuaEe6CYP2eCisbAQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8VeSsLuaEe6CYP2eCisbAQ" name="tadarbolbinario">
+      <packagedElement xmi:type="uml:Class" xmi:id="_8XGDULuaEe6CYP2eCisbAQ" name="Arbol">
+        <ownedAttribute xmi:id="_8ewKgLuaEe6CYP2eCisbAQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_8ewKgbuaEe6CYP2eCisbAQ" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_8ewKgruaEe6CYP2eCisbAQ" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_8ewxkLuaEe6CYP2eCisbAQ" name="raiz" type="_8X57oLuaEe6CYP2eCisbAQ" association="_8ffKULuaEe6CYP2eCisbAQ"/>
+        <interfaceRealization xmi:id="_8eJtkLuaEe6CYP2eCisbAQ" client="_8XGDULuaEe6CYP2eCisbAQ" supplier="_8cjyILuaEe6CYP2eCisbAQ" contract="_8cjyILuaEe6CYP2eCisbAQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fIlALuaEe6CYP2eCisbAQ" name="Arbol" specification="_8XJtsLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fIlAbuaEe6CYP2eCisbAQ" type="_8XGDULuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this.setNombre(null);&#xD;
+		this.setRaiz(null);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fIlAruaEe6CYP2eCisbAQ" name="Arbol" specification="_8eKUobuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fIlA7uaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fIlBLuaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fIlBbuaEe6CYP2eCisbAQ" type="_8XGDULuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this.setNombre(nombre);&#xD;
+		this.setRaiz(new NodoArbol&lt;>(clave));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJMELuaEe6CYP2eCisbAQ" name="Arbol" specification="_8eK7s7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fJMEbuaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fJMEruaEe6CYP2eCisbAQ" type="_8XGDULuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this.setNombre(null);&#xD;
+		this.setRaiz(new NodoArbol&lt;>(clave));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJME7uaEe6CYP2eCisbAQ" name="preOrder" specification="_8XK70LuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>preOrder(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJMFLuaEe6CYP2eCisbAQ" name="preOrder" specification="_8dLdMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fJMFbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			System.out.print(arbol.getClave() + &quot; &quot;);&#xD;
+			preOrder(arbol.getIz());&#xD;
+			preOrder(arbol.getDe());&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJMFruaEe6CYP2eCisbAQ" name="inOrder" specification="_8XMJ8LuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>inOrder(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJMF7uaEe6CYP2eCisbAQ" name="inOrder" specification="_8dNSYbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fJMGLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			inOrder(arbol.getIz());&#xD;
+			System.out.print(arbol.getClave() + &quot; &quot;);&#xD;
+			inOrder(arbol.getDe());&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJMGbuaEe6CYP2eCisbAQ" name="postOrder" specification="_8XNYELuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>postOrder(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJMGruaEe6CYP2eCisbAQ" name="postOrder" specification="_8dPHkLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fJMG7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			postOrder(arbol.getIz());&#xD;
+			postOrder(arbol.getDe());&#xD;
+			System.out.print(arbol.getClave() + &quot; &quot;);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJzILuaEe6CYP2eCisbAQ" name="listarAmplitud" specification="_8XN_ILuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>try {&#xD;
+			listarAmplitud(this.getRaiz());&#xD;
+		} catch (ColaVacia e) {&#xD;
+&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJzIbuaEe6CYP2eCisbAQ" name="listarAmplitud" specification="_8dRj0LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fJzIruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> p;&#xD;
+		Cola&lt;NodoArbol&lt;T>> cola = new TadCola&lt;>();&#xD;
+&#xD;
+		p = arbol;&#xD;
+		if (p != null)&#xD;
+			cola.encolar(p);&#xD;
+		while (!cola.colaVacia()) {&#xD;
+			p = cola.desencolar();&#xD;
+			System.out.print(p.getClave() + &quot; &quot;);&#xD;
+			if (p.getIz() != null)&#xD;
+				cola.encolar(p.getIz());&#xD;
+			if (p.getDe() != null)&#xD;
+				cola.encolar(p.getDe());&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJzI7uaEe6CYP2eCisbAQ" name="juntar" specification="_8eMJ0LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fJzJLuaEe6CYP2eCisbAQ" name="arbol" type="_8XGDULuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fJzJbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fJzJruaEe6CYP2eCisbAQ" name="a1" type="_8XGDULuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fJzJ7uaEe6CYP2eCisbAQ" name="a2" type="_8XGDULuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>if (a1 == null &amp;&amp; a2 == null)&#xD;
+			System.out.println(&quot;No se pueden juntar árboles nulos&quot;);&#xD;
+		else if (a1 == null &amp;&amp; a2 != null) {&#xD;
+			arbol.setRaiz(new NodoArbol&lt;>(dato, null, a2.getRaiz()));&#xD;
+			if (!arbol.equals(a2))&#xD;
+				a2.setRaiz(null);&#xD;
+		} else if (a1 != null &amp;&amp; a2 == null) {&#xD;
+			arbol.setRaiz(new NodoArbol&lt;>(dato, a1.getRaiz(), null));&#xD;
+			if (!arbol.equals(a1))&#xD;
+				a1.setRaiz(null);&#xD;
+		} else if (a1.getRaiz().equals(a2.getRaiz()) &amp;&amp; a1.raiz != null)&#xD;
+			System.out.println(&quot;no se pueden juntar &quot; + a1.getNombre() + &quot; y &quot; + a2.getNombre() + &quot;, son iguales&quot;);&#xD;
+		else {&#xD;
+			arbol.setRaiz(new NodoArbol&lt;>(dato, a1.getRaiz(), a2.getRaiz()));&#xD;
+			if (!arbol.equals(a1))&#xD;
+				a1.setRaiz(null);&#xD;
+			if (!arbol.equals(a2))&#xD;
+				a2.setRaiz(null);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fJzKLuaEe6CYP2eCisbAQ" name="buscar" specification="_8eP0MbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fJzKbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fJzKruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return buscar(this.getRaiz(), dato);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fKaMLuaEe6CYP2eCisbAQ" name="buscar" specification="_8eQbQruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fKaMbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fKaMruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fKaM7uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean resul = false;&#xD;
+&#xD;
+		if (arbol != null) {&#xD;
+			if (arbol.getClave().compareTo(dato) == 0)&#xD;
+				resul = true;&#xD;
+			else {&#xD;
+				resul = buscar(arbol.getIz(), dato);&#xD;
+				if (!resul)&#xD;
+					resul = buscar(arbol.getDe(), dato);&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		return resul;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fKaNLuaEe6CYP2eCisbAQ" name="eliminar" specification="_8eRpYLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fKaNbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>this.setRaiz((new Eliminar()).borrarNodo(this.getRaiz(), dato));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fKaPruaEe6CYP2eCisbAQ" name="altura" specification="_8XRCcLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fKaP7uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return altura(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fKaQLuaEe6CYP2eCisbAQ" name="altura" specification="_8dXDYLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fKaQbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fKaQruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (arbol == null)&#xD;
+			return 0;&#xD;
+		else&#xD;
+			return 1 + Math.max(altura(arbol.getIz()), altura(arbol.getDe()));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fLBQLuaEe6CYP2eCisbAQ" name="nivel" specification="_8eTekLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fLBQbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fLBQruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (this.getRaiz() != null)&#xD;
+			return nivel(this.getRaiz(), dato, -1, 1);&#xD;
+		else&#xD;
+			return 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fLBQ7uaEe6CYP2eCisbAQ" name="nivel" specification="_8eUFoLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fLBRLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fLBRbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fLBRruaEe6CYP2eCisbAQ" name="nivelDato">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fLBR7uaEe6CYP2eCisbAQ" name="nivelActual">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fLBSLuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			if (arbol.getClave().compareTo(dato) == 0) {&#xD;
+				nivelDato = nivelActual;&#xD;
+			} else {&#xD;
+				nivelDato = nivel(arbol.getIz(), dato, nivelDato, nivelActual + 1);&#xD;
+				if (nivelDato == -1)&#xD;
+					nivelDato = nivel(arbol.getDe(), dato, nivelDato, nivelActual + 1);&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		return nivelDato;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fLBSbuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles" specification="_8XTesLuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>try {&#xD;
+			listarAmplitudNiveles(this.getRaiz());&#xD;
+		} catch (ColaVacia e) {&#xD;
+&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fLBSruaEe6CYP2eCisbAQ" name="listarAmplitudNiveles" specification="_8daGsLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fLBS7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> p;&#xD;
+		Cola&lt;NodoArbol&lt;T>> cola = new TadCola&lt;>();&#xD;
+&#xD;
+		p = arbol;&#xD;
+		if (p != null)&#xD;
+			cola.encolar(p);&#xD;
+		while (!cola.colaVacia()) {&#xD;
+			p = cola.desencolar();&#xD;
+			System.out.println(&quot;clave:&quot; + p.getClave() + &quot; nivel:&quot; + nivel(p.getClave()));&#xD;
+			if (p.getIz() != null)&#xD;
+				cola.encolar(p.getIz());&#xD;
+			if (p.getDe() != null)&#xD;
+				cola.encolar(p.getDe());&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fLBTLuaEe6CYP2eCisbAQ" name="esCompleto" specification="_8XUFwLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fLBTbuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return esCompleto(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fLBTruaEe6CYP2eCisbAQ" name="esCompleto" specification="_8db74LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fLBT7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fLBULuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean resul = true;&#xD;
+		if (arbol != null) {&#xD;
+			if (altura(arbol.getIz()) != altura(arbol.getDe())) {&#xD;
+				resul = false;&#xD;
+			} else {&#xD;
+				resul = esCompleto(arbol.getIz()) &amp;&amp; esCompleto(arbol.getDe());&#xD;
+			}&#xD;
+		}&#xD;
+		return resul;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fLBUbuaEe6CYP2eCisbAQ" name="numeroDeNodos" specification="_8XVT4LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fLBUruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return numeroDeNodos(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fLoULuaEe6CYP2eCisbAQ" name="numeroDeNodos" specification="_8dci8buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fLoUbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fLoUruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			return 1 + numeroDeNodos(arbol.getIz()) + numeroDeNodos(arbol.getDe());&#xD;
+		} else&#xD;
+			return 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fMPYLuaEe6CYP2eCisbAQ" name="numeroDeHojas" specification="_8XWiALuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fMPYbuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return numeroDeHojas(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fMPYruaEe6CYP2eCisbAQ" name="numeroDeHojas" specification="_8ddxELuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fMPY7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fMPZLuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			if (arbol.getDe() == null &amp;&amp; arbol.getIz() == null)&#xD;
+				return 1;&#xD;
+			else&#xD;
+				return numeroDeHojas(arbol.getIz()) + numeroDeHojas(arbol.getDe());&#xD;
+		} else&#xD;
+			return 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fMPZbuaEe6CYP2eCisbAQ" name="menor" specification="_8XXwILuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fMPZruaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>return menor(this.getRaiz(), this.getRaiz().getClave());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fMPZ7uaEe6CYP2eCisbAQ" name="menor" specification="_8eVTwbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fMPaLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fMPabuaEe6CYP2eCisbAQ" name="menor" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fMParuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			if (arbol.getClave().compareTo(menor) &lt; 0) {&#xD;
+				menor = arbol.getClave();&#xD;
+			}&#xD;
+			menor = menor(arbol.getIz(), menor);&#xD;
+			menor = menor(arbol.getDe(), menor);&#xD;
+		}&#xD;
+		return menor;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fMPa7uaEe6CYP2eCisbAQ" name="mayor" specification="_8XYXMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fMPbLuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>return mayor(this.getRaiz(), this.getRaiz().getClave());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fMPbbuaEe6CYP2eCisbAQ" name="mayor" specification="_8eWh4buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fMPbruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fMPb7uaEe6CYP2eCisbAQ" name="mayor" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fMPcLuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			if (arbol.getClave().compareTo(mayor) > 0) {&#xD;
+				mayor = arbol.getClave();&#xD;
+			}&#xD;
+			mayor = mayor(arbol.getIz(), mayor);&#xD;
+			mayor = mayor(arbol.getDe(), mayor);&#xD;
+		}&#xD;
+		return mayor;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fM2cLuaEe6CYP2eCisbAQ" name="info" specification="_8XYXMbuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>if (this.getRaiz() != null) {&#xD;
+			System.out.println(&quot;Información del árbol &quot; + this.getNombre());&#xD;
+			System.out.println(&quot;Altura: &quot; + this.altura());&#xD;
+			System.out.println(&quot;Número de nodos: &quot; + this.numeroDeNodos());&#xD;
+			System.out.println(&quot;Número de hojas: &quot; + this.numeroDeHojas());&#xD;
+			System.out.println(&quot;Arbol está completo?: &quot; + (this.esCompleto() ? &quot;SI&quot; : &quot;NO&quot;));&#xD;
+			System.out.println(&quot;Dato menor: &quot; + this.menor());&#xD;
+			System.out.println(&quot;Dato mayor: &quot; + this.mayor());&#xD;
+			System.out.println(&quot;Recorridos&quot;);&#xD;
+			System.out.println(&quot;PreOrder&quot;);&#xD;
+			this.preOrder();&#xD;
+			System.out.println(&quot;\nInOrder&quot;);&#xD;
+			this.inOrder();&#xD;
+			System.out.println(&quot;\nPostOrder&quot;);&#xD;
+			this.postOrder();&#xD;
+			System.out.println(&quot;\nAmplitud&quot;);&#xD;
+			this.listarAmplitud();&#xD;
+			System.out.println(&quot;\nAmplitud y niveles&quot;);&#xD;
+			this.listarAmplitudNiveles();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fM2cbuaEe6CYP2eCisbAQ" name="toString" specification="_8XY-QLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fM2cruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>StringBuffer cadena = new StringBuffer(nombre + &quot;: &quot;);&#xD;
+		return inOrderToString(this.getRaiz(), cadena).toString();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fM2c7uaEe6CYP2eCisbAQ" name="inOrderToString" specification="_8eXwAbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fM2dLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fM2dbuaEe6CYP2eCisbAQ" name="cadena" type="_8eXI8buaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fM2druaEe6CYP2eCisbAQ" type="_8eXI8buaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			cadena = inOrderToString(arbol.getIz(), cadena);&#xD;
+			cadena.append(arbol.getClave() + &quot; &quot;);&#xD;
+			cadena = inOrderToString(arbol.getDe(), cadena);&#xD;
+		}&#xD;
+		return cadena;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8XJtsLuaEe6CYP2eCisbAQ" name="Arbol" method="_8fIlALuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8XJtsbuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8XJtsruaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8XJts7uaEe6CYP2eCisbAQ" type="_8XGDULuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XK70LuaEe6CYP2eCisbAQ" name="preOrder" method="_8fJME7uaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XMJ8LuaEe6CYP2eCisbAQ" name="inOrder" method="_8fJMFruaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XNYELuaEe6CYP2eCisbAQ" name="postOrder" method="_8fJMGbuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XN_ILuaEe6CYP2eCisbAQ" name="listarAmplitud" method="_8fJzILuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XRCcLuaEe6CYP2eCisbAQ" name="altura" method="_8fKaPruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8XRpgLuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XTesLuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles" method="_8fLBSbuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XUFwLuaEe6CYP2eCisbAQ" name="esCompleto" method="_8fLBTLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8XUs0LuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XVT4LuaEe6CYP2eCisbAQ" name="numeroDeNodos" method="_8fLBUbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8XVT4buaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XWiALuaEe6CYP2eCisbAQ" name="numeroDeHojas" method="_8fMPYLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8XXJELuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XXwILuaEe6CYP2eCisbAQ" name="menor" method="_8fMPZbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eVTwLuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XYXMLuaEe6CYP2eCisbAQ" name="mayor" method="_8fMPa7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eWh4LuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XYXMbuaEe6CYP2eCisbAQ" name="info" method="_8fM2cLuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8XY-QLuaEe6CYP2eCisbAQ" name="toString" method="_8fM2cbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8XY-QbuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dLdMLuaEe6CYP2eCisbAQ" name="preOrder" visibility="private" method="_8fJMFLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dMEQLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dNSYbuaEe6CYP2eCisbAQ" name="inOrder" visibility="private" method="_8fJMF7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dNSYruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dPHkLuaEe6CYP2eCisbAQ" name="postOrder" visibility="private" method="_8fJMGruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dPHkbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dRj0LuaEe6CYP2eCisbAQ" name="listarAmplitud" visibility="private" method="_8fJzIbuaEe6CYP2eCisbAQ" raisedException="_8WxTMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dRj0buaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dXDYLuaEe6CYP2eCisbAQ" name="altura" method="_8fKaQLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dXDYbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8dXDYruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8daGsLuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles" visibility="private" method="_8fLBSruaEe6CYP2eCisbAQ" raisedException="_8WxTMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8datwLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8db74LuaEe6CYP2eCisbAQ" name="esCompleto" visibility="private" method="_8fLBTruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8db74buaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8db74ruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dci8buaEe6CYP2eCisbAQ" name="numeroDeNodos" visibility="private" method="_8fLoULuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dci8ruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ddKALuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8ddxELuaEe6CYP2eCisbAQ" name="numeroDeHojas" visibility="private" method="_8fMPYruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8ddxEbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ddxEruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eKUobuaEe6CYP2eCisbAQ" name="Arbol" method="_8fIlAruaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8eK7sLuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8eK7sbuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8eKUoruaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8eKUo7uaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eK7sruaEe6CYP2eCisbAQ" type="_8XGDULuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eK7s7uaEe6CYP2eCisbAQ" name="Arbol" method="_8fJMELuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8eLiwLuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8eLiwbuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8eK7tLuaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eLiwruaEe6CYP2eCisbAQ" type="_8XGDULuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eMJ0LuaEe6CYP2eCisbAQ" name="juntar" isLeaf="true" isStatic="true" method="_8fJzI7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eMJ0buaEe6CYP2eCisbAQ" name="arbol" type="_8XGDULuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eMJ0ruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eMJ07uaEe6CYP2eCisbAQ" name="a1" type="_8XGDULuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eMJ1LuaEe6CYP2eCisbAQ" name="a2" type="_8XGDULuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eP0MbuaEe6CYP2eCisbAQ" name="buscar" method="_8fJzKLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eQbQLuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eQbQbuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eQbQruaEe6CYP2eCisbAQ" name="buscar" visibility="private" method="_8fKaMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eQbQ7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eRCULuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eRCUbuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eRpYLuaEe6CYP2eCisbAQ" name="eliminar" method="_8fKaNLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eRpYbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eTekLuaEe6CYP2eCisbAQ" name="nivel" method="_8fLBQLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eTekbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eTekruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eUFoLuaEe6CYP2eCisbAQ" name="nivel" visibility="private" method="_8fLBQ7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eUFobuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eUssLuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eUssbuaEe6CYP2eCisbAQ" name="nivelDato">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8eUssruaEe6CYP2eCisbAQ" name="nivelActual">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8eUss7uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eVTwbuaEe6CYP2eCisbAQ" name="menor" visibility="private" method="_8fMPZ7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eVTwruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eVTw7uaEe6CYP2eCisbAQ" name="menor" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eV60LuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eWh4buaEe6CYP2eCisbAQ" name="mayor" visibility="private" method="_8fMPbbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eWh4ruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eWh47uaEe6CYP2eCisbAQ" name="mayor" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eWh5LuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eXwAbuaEe6CYP2eCisbAQ" name="inOrderToString" visibility="private" method="_8fM2c7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eXwAruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eXwA7uaEe6CYP2eCisbAQ" name="cadena" type="_8eXI8buaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eYXELuaEe6CYP2eCisbAQ" type="_8eXI8buaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_8XP0ULuaEe6CYP2eCisbAQ" name="Eliminar" visibility="package">
+          <ownedAttribute xmi:id="_8ewxkruaEe6CYP2eCisbAQ" name="encontrado" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_8ewxk7uaEe6CYP2eCisbAQ" value="false"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fKaNruaEe6CYP2eCisbAQ" name="borrarNodo" specification="_8eSQcLuaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8fKaN7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fKaOLuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fKaObuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+            <language>java</language>
+            <body>NodoArbol&lt;T> p, aux;&#xD;
+&#xD;
+			if (arbol != null)&#xD;
+				if (arbol.getClave().compareTo(dato) == 0) {&#xD;
+					encontrado = true;&#xD;
+					p = arbol;&#xD;
+					if (arbol.getIz() == null)&#xD;
+						arbol = arbol.getDe();&#xD;
+					else if (arbol.getDe() == null)&#xD;
+						arbol = arbol.getIz();&#xD;
+					else&#xD;
+						arbol.setIz(eliminar2Hijos(arbol.getIz(), p));&#xD;
+				} else {&#xD;
+					aux = borrarNodo(arbol.getIz(), dato);&#xD;
+					if (encontrado)&#xD;
+						arbol.setIz(aux);&#xD;
+					else {&#xD;
+						aux = borrarNodo(arbol.getDe(), dato);&#xD;
+						if (encontrado)&#xD;
+							arbol.setDe(aux);&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+			return arbol;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fKaOruaEe6CYP2eCisbAQ" name="eliminar2Hijos" specification="_8dTZALuaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8fKaO7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fKaPLuaEe6CYP2eCisbAQ" name="p" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fKaPbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+            <language>java</language>
+            <body>NodoArbol&lt;T> resul;&#xD;
+&#xD;
+			if (arbol.getDe() != null) {&#xD;
+				resul = arbol;&#xD;
+				arbol.setDe(eliminar2Hijos(arbol.getDe(), p));&#xD;
+			} else {&#xD;
+				p.setClave(arbol.getClave());&#xD;
+				resul = arbol.getIz();&#xD;
+			}&#xD;
+			return resul;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_8dTZALuaEe6CYP2eCisbAQ" name="eliminar2Hijos" visibility="package" method="_8fKaOruaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8dUAELuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8dUAEbuaEe6CYP2eCisbAQ" name="p" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8dUnIbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_8eSQcLuaEe6CYP2eCisbAQ" name="borrarNodo" visibility="package" method="_8fKaNruaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8eSQcbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8eSQcruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8eS3gbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8XiIMLuaEe6CYP2eCisbAQ" name="ArbolAVL">
+        <ownedComment xmi:id="_8fULMLuaEe6CYP2eCisbAQ">
+          <body>Árbol AVL parametrizado para objetos comparables genéricos tipo T&#xD;
+&#xD;
+@author Fausto Redrován&#xD;
+@param &lt;T> clase del objeto elemento del árbol</body>
+        </ownedComment>
+        <generalization xmi:id="_8dzIQLuaEe6CYP2eCisbAQ" general="_8XwKoLuaEe6CYP2eCisbAQ"/>
+        <ownedAttribute xmi:id="_8exYobuaEe6CYP2eCisbAQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_8ex_sLuaEe6CYP2eCisbAQ" value="1L"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fNdgLuaEe6CYP2eCisbAQ" name="ArbolAVL" specification="_8eaMQLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fNdgbuaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fNdgruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fNdg7uaEe6CYP2eCisbAQ" type="_8XiIMLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super(nombre, dato);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOEkLuaEe6CYP2eCisbAQ" name="ArbolAVL" specification="_8XlykLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOEkbuaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fOEkruaEe6CYP2eCisbAQ" type="_8XiIMLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super(nombre);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOEk7uaEe6CYP2eCisbAQ" name="ArbolAVL" specification="_8eazULuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOElLuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOElbuaEe6CYP2eCisbAQ" type="_8XiIMLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super(null, dato);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOElruaEe6CYP2eCisbAQ" name="ArbolAVL" specification="_8XnAsLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOEl7uaEe6CYP2eCisbAQ" type="_8XiIMLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOEmLuaEe6CYP2eCisbAQ" name="buscarNodo" specification="_8eazVbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOEmbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOEmruaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>return buscarNodo(this.getRaiz(), dato);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOEm7uaEe6CYP2eCisbAQ" name="buscarNodo" specification="_8ecBcLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOEnLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOEnbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOEnruaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			if (arbol.getClave().compareTo(dato) == 0)&#xD;
+				return arbol;&#xD;
+			else if (arbol.getClave().compareTo(dato) > 0) {&#xD;
+				return buscarNodo(arbol.getIz(), dato);&#xD;
+			} else {&#xD;
+				return buscarNodo(arbol.getDe(), dato);&#xD;
+			}&#xD;
+		} else&#xD;
+			return arbol;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOroLuaEe6CYP2eCisbAQ" name="rotacionIzquierda" specification="_8dmT8LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOrobuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOroruaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> aux = arbol.getIz();&#xD;
+&#xD;
+		arbol.setIz(aux.getDe());&#xD;
+		aux.setDe(arbol);&#xD;
+		arbol.setFe(altura(arbol.getDe()) - altura(arbol.getIz()));&#xD;
+		return aux;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOro7uaEe6CYP2eCisbAQ" name="rotacionDerecha" specification="_8doJILuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOrpLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOrpbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> aux = arbol.getDe();&#xD;
+&#xD;
+		arbol.setDe(aux.getIz());&#xD;
+		aux.setIz(arbol);&#xD;
+		arbol.setFe(altura(arbol.getDe()) - altura(arbol.getIz()));&#xD;
+		return aux;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOrpruaEe6CYP2eCisbAQ" name="rotacionDobleIzquierda" specification="_8dowMbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOrp7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOrqLuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> aux;&#xD;
+&#xD;
+		arbol.setIz(rotacionDerecha(arbol.getIz()));&#xD;
+		aux = rotacionIzquierda(arbol);&#xD;
+		return aux;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOrqbuaEe6CYP2eCisbAQ" name="rotacionDobleDerecha" specification="_8dp-UbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOrqruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOrq7uaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> aux;&#xD;
+&#xD;
+		arbol.setDe(rotacionIzquierda(arbol.getDe()));&#xD;
+		aux = rotacionDerecha(arbol);&#xD;
+		return aux;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOrrLuaEe6CYP2eCisbAQ" name="insertar" specification="_8drMcLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOrrbuaEe6CYP2eCisbAQ" name="nuevo" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOrrruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fOrr7uaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> nuevoPadre = arbol;&#xD;
+&#xD;
+		if (nuevo.getClave().compareTo(arbol.getClave()) &lt; 0) {&#xD;
+			if (arbol.getIz() == null) {&#xD;
+				arbol.setIz(nuevo);&#xD;
+			} else {&#xD;
+				arbol.setIz(insertar(nuevo, arbol.getIz()));&#xD;
+				if (altura(arbol.getDe()) - altura(arbol.getIz()) == -2) { // hay desbalanceo&#xD;
+					if (nuevo.getClave().compareTo(arbol.getIz().getClave()) &lt; 0) {&#xD;
+						nuevoPadre = rotacionIzquierda(arbol);&#xD;
+					} else {&#xD;
+						nuevoPadre = rotacionDobleIzquierda(arbol);&#xD;
+					}&#xD;
+&#xD;
+				}&#xD;
+			}&#xD;
+		} else {&#xD;
+			if (nuevo.getClave().compareTo(arbol.getClave()) > 0) {&#xD;
+				if (arbol.getDe() == null) {&#xD;
+					arbol.setDe(nuevo);&#xD;
+				} else {&#xD;
+					arbol.setDe(insertar(nuevo, arbol.getDe()));&#xD;
+					if ((altura(arbol.getDe()) - altura(arbol.getIz())) == 2) { // hay desbalanceo&#xD;
+						if (nuevo.getClave().compareTo(arbol.getDe().getClave()) > 0) {&#xD;
+							nuevoPadre = rotacionDerecha(arbol);&#xD;
+						} else {&#xD;
+							nuevoPadre = rotacionDobleDerecha(arbol);&#xD;
+						}&#xD;
+&#xD;
+					}&#xD;
+				}&#xD;
+			} else {&#xD;
+				System.out.println(&quot;Nodo duplicado&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		// Actualizando el FE&#xD;
+		nuevoPadre.setFe(altura(nuevoPadre.getDe()) - altura(nuevoPadre.getIz()));&#xD;
+		return nuevoPadre;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fOrsLuaEe6CYP2eCisbAQ" name="insertar" specification="_8ecogbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fOrsbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> nuevo = new NodoArbol&lt;T>(dato);&#xD;
+&#xD;
+		if (getRaiz() == null) {&#xD;
+			setRaiz(nuevo);&#xD;
+		} else {&#xD;
+			setRaiz(insertar(nuevo, getRaiz()));&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fPSsLuaEe6CYP2eCisbAQ" name="eliminar" specification="_8edPkLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fPSsbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>Eliminar e = new Eliminar();&#xD;
+		setRaiz(e.borrarNodo(getRaiz(), dato));&#xD;
+		if (!e.encontrado)&#xD;
+			System.out.println(&quot;Dato no encontrado&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fPSvbuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles" specification="_8Xpc8LuaEe6CYP2eCisbAQ">
+          <language>java</language>
+          <body>try {&#xD;
+			listarAmplitudNiveles(this.getRaiz());&#xD;
+		} catch (ColaVacia e) {&#xD;
+&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fP5wLuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles" specification="_8dx6IbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fP5wbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> p;&#xD;
+		Cola&lt;NodoArbol&lt;T>> cola = new TadCola&lt;>();&#xD;
+&#xD;
+		p = arbol;&#xD;
+		if (p != null)&#xD;
+			cola.encolar(p);&#xD;
+		while (!cola.colaVacia()) {&#xD;
+			p = cola.desencolar();&#xD;
+			System.out.println(&quot;clave:&quot; + p.getClave() + &quot; nivel:&quot; + nivel(p.getClave()) + &quot; fe:&quot; + p.getFe());&#xD;
+			if (p.getIz() != null)&#xD;
+				cola.encolar(p.getIz());&#xD;
+			if (p.getDe() != null)&#xD;
+				cola.encolar(p.getDe());&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8XlykLuaEe6CYP2eCisbAQ" name="ArbolAVL" method="_8fOEkLuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8XmZoLuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8XmZobuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8XlykbuaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8XmZoruaEe6CYP2eCisbAQ" type="_8XiIMLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8XnAsLuaEe6CYP2eCisbAQ" name="ArbolAVL" method="_8fOElruaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8XnAsbuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8XnAsruaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8XnAs7uaEe6CYP2eCisbAQ" type="_8XiIMLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8Xpc8LuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles" method="_8fPSvbuaEe6CYP2eCisbAQ"/>
+        <ownedOperation xmi:id="_8dmT8LuaEe6CYP2eCisbAQ" name="rotacionIzquierda" method="_8fOroLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dmT8buaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8dm7AbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8doJILuaEe6CYP2eCisbAQ" name="rotacionDerecha" method="_8fOro7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8doJIbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8doJI7uaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dowMbuaEe6CYP2eCisbAQ" name="rotacionDobleIzquierda" method="_8fOrpruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dowMruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8dpXQbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dp-UbuaEe6CYP2eCisbAQ" name="rotacionDobleDerecha" method="_8fOrqbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dp-UruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8dqlYbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8drMcLuaEe6CYP2eCisbAQ" name="insertar" visibility="private" method="_8fOrrLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8drMcbuaEe6CYP2eCisbAQ" name="nuevo" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8drMcruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8drzgbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8dx6IbuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles" visibility="private" method="_8fP5wLuaEe6CYP2eCisbAQ" raisedException="_8WxTMLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8dyhMLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eaMQLuaEe6CYP2eCisbAQ" name="ArbolAVL" method="_8fNdgLuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8eaMQ7uaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8eaMRLuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8eaMQbuaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8eaMQruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eaMRbuaEe6CYP2eCisbAQ" type="_8XiIMLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eazULuaEe6CYP2eCisbAQ" name="ArbolAVL" method="_8fOEk7uaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8eazUruaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8eazU7uaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8eazUbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eazVLuaEe6CYP2eCisbAQ" type="_8XiIMLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eazVbuaEe6CYP2eCisbAQ" name="buscarNodo" method="_8fOEmLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eazVruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ebaYbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8ecBcLuaEe6CYP2eCisbAQ" name="buscarNodo" visibility="private" method="_8fOEm7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8ecBcbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ecBcruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ecBdLuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8ecogbuaEe6CYP2eCisbAQ" name="insertar" method="_8fOrsLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8ecogruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8edPkLuaEe6CYP2eCisbAQ" name="eliminar" method="_8fPSsLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8edPkbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_8XoO0LuaEe6CYP2eCisbAQ" name="Eliminar" visibility="package">
+          <ownedAttribute xmi:id="_8ex_sbuaEe6CYP2eCisbAQ" name="encontrado" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_8ex_sruaEe6CYP2eCisbAQ" value="false"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fPSsruaEe6CYP2eCisbAQ" name="borrarNodo" specification="_8ed2oLuaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8fPSs7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fPStLuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fPStbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+            <language>java</language>
+            <body>NodoArbol&lt;T> p, aux;&#xD;
+&#xD;
+			if (arbol != null) {&#xD;
+				if (arbol.getClave().compareTo(dato) == 0) {&#xD;
+					encontrado = true;&#xD;
+					p = arbol;&#xD;
+					if (arbol.getIz() == null)&#xD;
+						arbol = arbol.getDe();&#xD;
+					else if (arbol.getDe() == null)&#xD;
+						arbol = arbol.getIz();&#xD;
+					else&#xD;
+						arbol.setIz(eliminar2Hijos(arbol.getIz(), p));&#xD;
+				} else {&#xD;
+					if (arbol.getClave().compareTo(dato) > 0) {&#xD;
+						aux = borrarNodo(arbol.getIz(), dato);&#xD;
+						if (encontrado)&#xD;
+							arbol.setIz(aux);&#xD;
+					} else {&#xD;
+						aux = borrarNodo(arbol.getDe(), dato);&#xD;
+						if (encontrado)&#xD;
+							arbol.setDe(aux);&#xD;
+					}&#xD;
+				}&#xD;
+				if (arbol != null &amp;&amp; encontrado) {&#xD;
+					arbol.setFe(altura(arbol.getDe()) - altura(arbol.getIz()));&#xD;
+					if (arbol.getFe() == -2 || arbol.getFe() == 2) {&#xD;
+						arbol = balancear(arbol);&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+			}&#xD;
+			return arbol;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fPStruaEe6CYP2eCisbAQ" name="eliminar2Hijos" specification="_8duPwLuaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8fPSt7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fPSuLuaEe6CYP2eCisbAQ" name="p" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fPSubuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+            <language>java</language>
+            <body>NodoArbol&lt;T> resul;&#xD;
+&#xD;
+			if (arbol.getDe() != null) {&#xD;
+				resul = arbol;&#xD;
+				arbol.setDe(eliminar2Hijos(arbol.getDe(), p));&#xD;
+			} else {&#xD;
+				p.setClave(arbol.getClave());&#xD;
+				resul = arbol.getIz();&#xD;
+			}&#xD;
+			// parche&#xD;
+			if (resul != null) {&#xD;
+				resul.setFe(altura(resul.getDe()) - altura(resul.getIz()));&#xD;
+				if (resul.getFe() == -2 || resul.getFe() == 2) {&#xD;
+					resul = balancear(resul);&#xD;
+				}&#xD;
+			}&#xD;
+			return resul;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fPSuruaEe6CYP2eCisbAQ" name="balancear" specification="_8dwE8ruaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8fPSu7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8fPSvLuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+            <language>java</language>
+            <body>if (arbol.getFe() == -2)&#xD;
+				if (arbol.getIz().getFe() == 1)&#xD;
+					arbol = rotacionDobleIzquierda(arbol);&#xD;
+				else // es 0 o -1&#xD;
+					arbol = rotacionIzquierda(arbol);&#xD;
+			else // es 2&#xD;
+			if (arbol.getDe().getFe() == -1)&#xD;
+				arbol = rotacionDobleDerecha(arbol);&#xD;
+			else // es 0 o 1&#xD;
+				arbol = rotacionDerecha(arbol);&#xD;
+			arbol.setFe(altura(arbol.getDe()) - altura(arbol.getIz()));&#xD;
+			return arbol;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_8duPwLuaEe6CYP2eCisbAQ" name="eliminar2Hijos" visibility="package" method="_8fPStruaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8du20LuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8du20buaEe6CYP2eCisbAQ" name="p" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8dvd4buaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_8dwE8ruaEe6CYP2eCisbAQ" name="balancear" visibility="package" method="_8fPSuruaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8dwsALuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8dxTEbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_8ed2oLuaEe6CYP2eCisbAQ" name="borrarNodo" visibility="package" method="_8fPSsruaEe6CYP2eCisbAQ">
+            <ownedParameter xmi:id="_8ed2obuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8ed2oruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+            <ownedParameter xmi:id="_8eedsbuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8XwKoLuaEe6CYP2eCisbAQ" name="ArbolBB">
+        <generalization xmi:id="_8d4AwLuaEe6CYP2eCisbAQ" general="_8XGDULuaEe6CYP2eCisbAQ"/>
+        <ownedAttribute xmi:id="_8eymwLuaEe6CYP2eCisbAQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_8eymwbuaEe6CYP2eCisbAQ" value="1L"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fP5wruaEe6CYP2eCisbAQ" name="ArbolBB" specification="_8Xx_0LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fP5w7uaEe6CYP2eCisbAQ" type="_8XwKoLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fP5xLuaEe6CYP2eCisbAQ" name="ArbolBB" specification="_8efr0LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fP5xbuaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fP5xruaEe6CYP2eCisbAQ" type="_8XwKoLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super(clave);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fQg0LuaEe6CYP2eCisbAQ" name="ArbolBB" specification="_8egS47uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fQg0buaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fQg0ruaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fQg07uaEe6CYP2eCisbAQ" type="_8XwKoLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super(nombre, clave);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fQg1LuaEe6CYP2eCisbAQ" name="ArbolBB" specification="_8Xym4LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fQg1buaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fQg1ruaEe6CYP2eCisbAQ" type="_8XwKoLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super.setNombre(nombre);&#xD;
+		super.setRaiz(null);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fQg17uaEe6CYP2eCisbAQ" name="insertar" specification="_8eg58LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fQg2LuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <language>java</language>
+          <body>this.setRaiz(insertar(this.getRaiz(), dato));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fQg2buaEe6CYP2eCisbAQ" name="insertar" specification="_8eg58ruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fQg2ruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fQg27uaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fQg3LuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>NodoArbol&lt;T> resul = arbol;&#xD;
+		if (arbol != null)&#xD;
+			if (arbol.getClave().compareTo(dato) &lt; 0)&#xD;
+				arbol.setDe(insertar(arbol.getDe(), dato));&#xD;
+			else if (arbol.getClave().compareTo(dato) > 0)&#xD;
+				arbol.setIz(insertar(arbol.getIz(), dato));&#xD;
+			else&#xD;
+				System.out.println(&quot;La clave ya existe&quot;);&#xD;
+		else&#xD;
+			resul = new NodoArbol&lt;>(dato);&#xD;
+		return resul;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fQg3buaEe6CYP2eCisbAQ" name="buscar" specification="_8eivILuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fQg3ruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fQg37uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return buscar(this.getRaiz(), dato);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fQg4LuaEe6CYP2eCisbAQ" name="buscar" specification="_8eivI7uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRH4LuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRH4buaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRH4ruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean resul = false;&#xD;
+&#xD;
+		if (arbol != null) {&#xD;
+			if (arbol.getClave().compareTo(dato) == 0)&#xD;
+				resul = true;&#xD;
+			else {&#xD;
+				if (arbol.getClave().compareTo(dato) > 0)&#xD;
+					resul = buscar(arbol.getIz(), dato);&#xD;
+				else&#xD;
+					resul = buscar(arbol.getDe(), dato);&#xD;
+			}&#xD;
+		}&#xD;
+		return resul;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fRH47uaEe6CYP2eCisbAQ" name="mayor" specification="_8Xz1ALuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRH5LuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>return mayor(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fRH5buaEe6CYP2eCisbAQ" name="mayor" specification="_8d1kgLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRH5ruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRH57uaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>T mayor = null;&#xD;
+		if (arbol != null) {&#xD;
+			if (arbol.getDe() != null)&#xD;
+				mayor = mayor(arbol.getDe());&#xD;
+			else&#xD;
+				mayor = arbol.getClave();&#xD;
+		}&#xD;
+		return mayor;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fRH6LuaEe6CYP2eCisbAQ" name="menor" specification="_8X2RQLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRH6buaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>return menor(this.getRaiz());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fRH6ruaEe6CYP2eCisbAQ" name="menor" specification="_8d2yoLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRH67uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRH7LuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>T menor = null;&#xD;
+		if (arbol != null) {&#xD;
+			if (arbol.getIz() != null)&#xD;
+				menor = menor(arbol.getIz());&#xD;
+			else&#xD;
+				menor = arbol.getClave();&#xD;
+		}&#xD;
+		return menor;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fRH7buaEe6CYP2eCisbAQ" name="nivel" specification="_8ekkULuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRH7ruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRH77uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (this.getRaiz() != null)&#xD;
+			return nivel(this.getRaiz(), dato, -1, 1);&#xD;
+		else&#xD;
+			return 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fRu8LuaEe6CYP2eCisbAQ" name="nivel" specification="_8elLYruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRu8buaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRu8ruaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRu87uaEe6CYP2eCisbAQ" name="nivelDato">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fRu9LuaEe6CYP2eCisbAQ" name="nivelActual">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fRu9buaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (arbol != null) {&#xD;
+			if (arbol.getClave().compareTo(dato) == 0) {&#xD;
+				nivelDato = nivelActual;&#xD;
+			} else {&#xD;
+				if (arbol.getClave().compareTo(dato) > 0)&#xD;
+					nivelDato = nivel(arbol.getIz(), dato, nivelDato, nivelActual + 1);&#xD;
+				else&#xD;
+					nivelDato = nivel(arbol.getDe(), dato, nivelDato, nivelActual + 1);&#xD;
+			}&#xD;
+		}&#xD;
+		return nivelDato;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8Xx_0LuaEe6CYP2eCisbAQ" name="ArbolBB" method="_8fP5wruaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8Xx_0buaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8Xx_0ruaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8Xx_07uaEe6CYP2eCisbAQ" type="_8XwKoLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8Xym4LuaEe6CYP2eCisbAQ" name="ArbolBB" method="_8fQg1LuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8Xym4ruaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8Xym47uaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8Xym4buaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8Xym5LuaEe6CYP2eCisbAQ" type="_8XwKoLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8Xz1ALuaEe6CYP2eCisbAQ" name="mayor" method="_8fRH47uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8ej9QLuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8X2RQLuaEe6CYP2eCisbAQ" name="menor" method="_8fRH6LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8ej9QruaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8d1kgLuaEe6CYP2eCisbAQ" name="mayor" visibility="private" method="_8fRH5buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8d1kgbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ej9QbuaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8d2yoLuaEe6CYP2eCisbAQ" name="menor" visibility="private" method="_8fRH6ruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8d2yobuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ej9Q7uaEe6CYP2eCisbAQ" type="_8eJtkbuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8efr0LuaEe6CYP2eCisbAQ" name="ArbolBB" method="_8fP5xLuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8egS4LuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8egS4buaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8efr0buaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8egS4ruaEe6CYP2eCisbAQ" type="_8XwKoLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8egS47uaEe6CYP2eCisbAQ" name="ArbolBB" method="_8fQg0LuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8egS5ruaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8egS57uaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8egS5LuaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8egS5buaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8egS6LuaEe6CYP2eCisbAQ" type="_8XwKoLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eg58LuaEe6CYP2eCisbAQ" name="insertar" method="_8fQg17uaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eg58buaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eg58ruaEe6CYP2eCisbAQ" name="insertar" visibility="private" method="_8fQg2buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eg587uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ehhALuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eiIELuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eivILuaEe6CYP2eCisbAQ" name="buscar" method="_8fQg3buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8eivIbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eivIruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eivI7uaEe6CYP2eCisbAQ" name="buscar" visibility="private" method="_8fQg4LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8ejWMLuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ejWMbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ejWMruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8ekkULuaEe6CYP2eCisbAQ" name="nivel" method="_8fRH7buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8ekkUbuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ekkUruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8elLYruaEe6CYP2eCisbAQ" name="nivel" visibility="private" method="_8fRu8LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8elLY7uaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8elLZLuaEe6CYP2eCisbAQ" name="dato" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8elLZbuaEe6CYP2eCisbAQ" name="nivelDato">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8elLZruaEe6CYP2eCisbAQ" name="nivelActual">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8elLZ7uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8X57oLuaEe6CYP2eCisbAQ" name="NodoArbol">
+        <ownedAttribute xmi:id="_8eymwruaEe6CYP2eCisbAQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_8eymw7uaEe6CYP2eCisbAQ" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_8ezN0LuaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ" association="_8fWAYLuaEe6CYP2eCisbAQ"/>
+        <ownedAttribute xmi:id="_8ezN0buaEe6CYP2eCisbAQ" name="fe">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_8ezN0ruaEe6CYP2eCisbAQ" name="iz" type="_8X57oLuaEe6CYP2eCisbAQ" association="_8ffxYbuaEe6CYP2eCisbAQ"/>
+        <ownedAttribute xmi:id="_8ez04buaEe6CYP2eCisbAQ" name="de" type="_8X57oLuaEe6CYP2eCisbAQ" association="_8ffxZLuaEe6CYP2eCisbAQ"/>
+        <interfaceRealization xmi:id="_8elycbuaEe6CYP2eCisbAQ" client="_8X57oLuaEe6CYP2eCisbAQ" supplier="_8cjyILuaEe6CYP2eCisbAQ" contract="_8cjyILuaEe6CYP2eCisbAQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fRu9ruaEe6CYP2eCisbAQ" name="NodoArbol" specification="_8X7JwLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRu97uaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this.setClave(null);&#xD;
+		this.setIz(null);&#xD;
+		this.setDe(null);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fRu-LuaEe6CYP2eCisbAQ" name="NodoArbol" specification="_8enAkLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fRu-buaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRu-ruaEe6CYP2eCisbAQ" name="iz" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRu-7uaEe6CYP2eCisbAQ" name="de" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fRu_LuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this.setClave(clave);&#xD;
+		this.setIz(iz);&#xD;
+		this.setDe(de);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fS9ELuaEe6CYP2eCisbAQ" name="NodoArbol" specification="_8eo1wLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fS9EbuaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fS9EruaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>this.setClave(clave);&#xD;
+		this.setIz(null);&#xD;
+		this.setDe(null);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8X7JwLuaEe6CYP2eCisbAQ" name="NodoArbol" method="_8fRu9ruaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8X7JwbuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8X7JwruaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8X7Jw7uaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8enAkLuaEe6CYP2eCisbAQ" name="NodoArbol" method="_8fRu-LuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8ennoLuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8ennobuaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8enAkbuaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8enAkruaEe6CYP2eCisbAQ" name="iz" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8enAk7uaEe6CYP2eCisbAQ" name="de" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8ennoruaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8eo1wLuaEe6CYP2eCisbAQ" name="NodoArbol" method="_8fS9ELuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8eo1wruaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8eo1w7uaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8eo1wbuaEe6CYP2eCisbAQ" name="clave" type="_8eJtkbuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8eo1xLuaEe6CYP2eCisbAQ" type="_8X57oLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8eJtkbuaEe6CYP2eCisbAQ" name="T"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8fWAYLuaEe6CYP2eCisbAQ" name="" memberEnd="_8ezN0LuaEe6CYP2eCisbAQ _8fWAYbuaEe6CYP2eCisbAQ">
+        <ownedEnd xmi:id="_8fWAYbuaEe6CYP2eCisbAQ" name="" type="_8X57oLuaEe6CYP2eCisbAQ" association="_8fWAYLuaEe6CYP2eCisbAQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8ffKULuaEe6CYP2eCisbAQ" name="" memberEnd="_8ffKUbuaEe6CYP2eCisbAQ _8ewxkLuaEe6CYP2eCisbAQ">
+        <ownedEnd xmi:id="_8ffKUbuaEe6CYP2eCisbAQ" name="" type="_8XGDULuaEe6CYP2eCisbAQ" association="_8ffKULuaEe6CYP2eCisbAQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8ffxYbuaEe6CYP2eCisbAQ" name="" memberEnd="_8ffxYruaEe6CYP2eCisbAQ _8ezN0ruaEe6CYP2eCisbAQ">
+        <ownedEnd xmi:id="_8ffxYruaEe6CYP2eCisbAQ" name="" type="_8X57oLuaEe6CYP2eCisbAQ" association="_8ffxYbuaEe6CYP2eCisbAQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8ffxZLuaEe6CYP2eCisbAQ" name="" memberEnd="_8ffxZbuaEe6CYP2eCisbAQ _8ez04buaEe6CYP2eCisbAQ">
+        <ownedEnd xmi:id="_8ffxZbuaEe6CYP2eCisbAQ" name="" type="_8X57oLuaEe6CYP2eCisbAQ" association="_8ffxZLuaEe6CYP2eCisbAQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8VgH4LuaEe6CYP2eCisbAQ" name="Programas">
+      <packagedElement xmi:type="uml:Class" xmi:id="_8Wg0gLuaEe6CYP2eCisbAQ" name="TestArbolBB">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fE6oLuaEe6CYP2eCisbAQ" name="main" specification="_8WjQwLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fE6obuaEe6CYP2eCisbAQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8fE6oruaEe6CYP2eCisbAQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ArbolBB&lt;Persona> arbolBB = new ArbolBB&lt;Persona>(&quot;MiArbolBB&quot;);&#xD;
+		Persona persona10 = new Persona(&quot;0714372661&quot;, &quot;Alan Coronado&quot;);&#xD;
+		Persona personaX = new Persona(&quot;0700000000&quot;, &quot;DeadPool&quot;);&#xD;
+		long time;&#xD;
+		boolean encontrado;&#xD;
+&#xD;
+		/*&#xD;
+		 * 1 0721687531 John Bocca&#xD;
+		 * &#xD;
+		 * 2 0705297810 Brian Banegas&#xD;
+		 * &#xD;
+		 * 3 0700903750 Richard Briones&#xD;
+		 * &#xD;
+		 * 4 0718834146 Dennis Rivera&#xD;
+		 * &#xD;
+		 * 5 0745348854 Adi Shumi&#xD;
+		 * &#xD;
+		 * 6 0753927813 Ada Lomas&#xD;
+		 * &#xD;
+		 * 7 0705355188 Linus Torres&#xD;
+		 * &#xD;
+		 * 8 0724593975 Alan Tumbaco&#xD;
+		 * &#xD;
+		 * 9 0733723480 Bill Gallardo&#xD;
+		 * &#xD;
+		 * 10 0714372661 Alan Coronado&#xD;
+		 */&#xD;
+&#xD;
+		// Arbol B&#xD;
+		Arbol&lt;Persona> arbolP10 = new Arbol&lt;Persona>(persona10);&#xD;
+		Arbol&lt;Persona> arbolP1 = new Arbol&lt;Persona>(new Persona(&quot;0721687531&quot;, &quot;John Bocca&quot;));&#xD;
+		Arbol&lt;Persona> arbolP4 = new Arbol&lt;Persona>();&#xD;
+		Arbol.juntar(arbolP4, new Persona(&quot;0718834146&quot;, &quot;Dennis Rivera&quot;), arbolP10, arbolP1);&#xD;
+&#xD;
+		Arbol&lt;Persona> arbolP9 = new Arbol&lt;Persona>(new Persona(&quot;0733723480&quot;, &quot;Bill Gallardo&quot;));&#xD;
+		Arbol&lt;Persona> arbolP6 = new Arbol&lt;Persona>(new Persona(&quot;0753927813&quot;, &quot;Ada Lomas&quot;));&#xD;
+		Arbol&lt;Persona> arbolP5 = new Arbol&lt;Persona>();&#xD;
+		Arbol.juntar(arbolP5, new Persona(&quot;0745348854&quot;, &quot;Adi Shumi&quot;), arbolP9, arbolP6);&#xD;
+&#xD;
+		Arbol&lt;Persona> arbolP8 = new Arbol&lt;Persona>();&#xD;
+		Arbol.juntar(arbolP8, new Persona(&quot;0724593975&quot;, &quot;Alan Tumbaco&quot;), arbolP4, arbolP5);&#xD;
+&#xD;
+		Arbol&lt;Persona> arbolP2 = new Arbol&lt;Persona>(new Persona(&quot;0705297810&quot;, &quot;Brian Banegas&quot;));&#xD;
+		Arbol&lt;Persona> arbolP3 = new Arbol&lt;Persona>();&#xD;
+		Arbol.juntar(arbolP3, new Persona(&quot;0700903750&quot;, &quot;Richard Briones&quot;), null, arbolP2);&#xD;
+&#xD;
+		Arbol&lt;Persona> arbolB = new Arbol&lt;Persona>();&#xD;
+		Arbol.juntar(arbolB, new Persona(&quot;0705355188&quot;, &quot;Linus Torres&quot;), arbolP3, arbolP8);&#xD;
+		arbolB.info();&#xD;
+&#xD;
+		System.out.println(&quot;\nBusqueda de la persona &quot; + persona10 + &quot; como objeto&quot;);&#xD;
+		time = System.nanoTime();&#xD;
+		encontrado = arbolB.buscar(persona10);&#xD;
+		time = System.nanoTime() - time;&#xD;
+		System.out.println(&quot;Tiempo de busqueda de la persona: &quot; + persona10 + &quot; en &quot; + time + &quot; nanosegundos&quot;);&#xD;
+		System.out.println(((encontrado) ? &quot;Encontrado&quot; : &quot;No encontrado&quot;) + &quot; en &quot; + time + &quot; nanosegundos &quot;);&#xD;
+&#xD;
+		System.out.println(&quot;\nBusqueda de la persona &quot; + personaX + &quot; como objeto&quot;);&#xD;
+		time = System.nanoTime();&#xD;
+		encontrado = arbolB.buscar(personaX);&#xD;
+		time = System.nanoTime() - time;&#xD;
+		System.out.println(&quot;Tiempo de busqueda de la persona: &quot; + personaX + &quot; en &quot; + time + &quot; nanosegundos&quot;);&#xD;
+		System.out.println(((encontrado) ? &quot;Encontrado&quot; : &quot;No encontrado&quot;) + &quot; en &quot; + time + &quot; nanosegundos &quot;);&#xD;
+&#xD;
+		System.out.println(&quot;\nBusqueda de la persona &quot; + persona10 + &quot; por cedula&quot;);&#xD;
+		time = System.nanoTime();&#xD;
+		encontrado = buscarB(arbolB.getRaiz(), persona10.getCedula());&#xD;
+		time = System.nanoTime() - time;&#xD;
+		System.out.println(&quot;Tiempo de busqueda de la persona: &quot; + persona10 + &quot; en &quot; + time + &quot; nanosegundos&quot;);&#xD;
+		System.out.println(((encontrado) ? &quot;Encontrado&quot; : &quot;No encontrado&quot;) + &quot; en &quot; + time + &quot; nanosegundos &quot;);&#xD;
+		System.out.println();&#xD;
+&#xD;
+		System.out.println(&quot;\nBusqueda de la persona &quot; + personaX + &quot; por cedula&quot;);&#xD;
+		time = System.nanoTime();&#xD;
+		encontrado = buscarB(arbolB.getRaiz(), persona10.getCedula());&#xD;
+		time = System.nanoTime() - time;&#xD;
+		System.out.println(&quot;Tiempo de busqueda de la persona: &quot; + personaX + &quot; en &quot; + time + &quot; nanosegundos&quot;);&#xD;
+		System.out.println(((encontrado) ? &quot;Encontrado&quot; : &quot;No encontrado&quot;) + &quot; en &quot; + time + &quot; nanosegundos &quot;);&#xD;
+&#xD;
+		System.out.println(&quot;\nNumero de nodos del Arbol Binario de Busqueda: &quot; + arbolB.numeroDeNodos());&#xD;
+		System.out.println(&quot;Altura de Arbol Binario de Busqueda: &quot; + arbolB.altura());&#xD;
+		System.out.println(&quot;Altura del subArbol Izquierdo: &quot; + alturaSubArbol(arbolB.getRaiz().getIz()));&#xD;
+		System.out.println(&quot;Altura del subArbol Derecho: &quot; + alturaSubArbol(arbolB.getRaiz().getDe()));&#xD;
+		System.out.println(&quot;El mayor dato del Arbol Binario de Busqueda es: &quot; + arbolB.mayor());&#xD;
+		System.out.println(&quot;El menor dato del Arbol Binario de Busqueda es: &quot; + arbolB.menor());&#xD;
+&#xD;
+		arbolB.eliminar(arbolB.getRaiz().getClave());&#xD;
+		arbolB.listarAmplitudNiveles();&#xD;
+&#xD;
+		// Arbol BB&#xD;
+&#xD;
+		arbolBB.insertar(new Persona(&quot;0721687531&quot;, &quot;John Bocca&quot;));&#xD;
+		arbolBB.insertar(new Persona(&quot;0705297810&quot;, &quot;Brian Banegas&quot;));&#xD;
+		arbolBB.insertar(new Persona(&quot;0700903750&quot;, &quot;Richard Briones&quot;));&#xD;
+		arbolBB.insertar(new Persona(&quot;0718834146&quot;, &quot;Dennis Rivera&quot;));&#xD;
+		arbolBB.insertar(new Persona(&quot;0745348854&quot;, &quot;Adi Shumi&quot;));&#xD;
+		arbolBB.insertar(new Persona(&quot;0753927813&quot;, &quot;Ada Lomas&quot;));&#xD;
+		arbolBB.insertar(new Persona(&quot;0705355188&quot;, &quot;Linus Torres&quot;));&#xD;
+		arbolBB.insertar(new Persona(&quot;0724593975&quot;, &quot;Alan Tumbaco&quot;));&#xD;
+		arbolBB.insertar(new Persona(&quot;0733723480&quot;, &quot;Bill Gallardo&quot;));&#xD;
+		arbolBB.insertar(persona10);&#xD;
+		arbolBB.info();&#xD;
+&#xD;
+		System.out.println(&quot;\nBusqueda de la persona &quot; + persona10+ &quot; como objeto&quot;);&#xD;
+		time = System.nanoTime();&#xD;
+		encontrado = arbolBB.buscar(persona10);&#xD;
+		time = System.nanoTime() - time;&#xD;
+		System.out.println(&quot;Tiempo de busqueda de la persona: &quot; + persona10 + &quot; en &quot; + time + &quot; nanosegundos&quot;);&#xD;
+		System.out.println(((encontrado) ? &quot;Encontrado&quot; : &quot;No encontrado&quot;) + &quot; en &quot; + time + &quot; nanosegundos &quot;);&#xD;
+&#xD;
+		System.out.println(&quot;\nBusqueda de la persona &quot; + personaX + &quot; como objeto&quot;);&#xD;
+		time = System.nanoTime();&#xD;
+		encontrado = arbolBB.buscar(personaX);&#xD;
+		time = System.nanoTime() - time;&#xD;
+		System.out.println(&quot;Tiempo de busqueda de la persona: &quot; + personaX + &quot; en &quot; + time + &quot; nanosegundos&quot;);&#xD;
+		System.out.println(((encontrado) ? &quot;Encontrado&quot; : &quot;No encontrado&quot;) + &quot; en &quot; + time + &quot; nanosegundos &quot;);&#xD;
+		&#xD;
+		System.out.println(&quot;\nBusqueda de la persona &quot; + persona10 + &quot; por cedula&quot;);&#xD;
+		time = System.nanoTime();&#xD;
+		encontrado = buscarBB(arbolB.getRaiz(), persona10.getCedula());&#xD;
+		time = System.nanoTime() - time;&#xD;
+		System.out.println(&quot;Tiempo de busqueda de la persona: &quot; + persona10 + &quot; en &quot; + time + &quot; nanosegundos&quot;);&#xD;
+		System.out.println(((encontrado) ? &quot;Encontrado&quot; : &quot;No encontrado&quot;) + &quot; en &quot; + time + &quot; nanosegundos &quot;);&#xD;
+		System.out.println();&#xD;
+&#xD;
+		System.out.println(&quot;\nBusqueda de la persona &quot; + personaX + &quot; por cedula&quot;);&#xD;
+		time = System.nanoTime();&#xD;
+		encontrado = buscarBB(arbolB.getRaiz(), persona10.getCedula());&#xD;
+		time = System.nanoTime() - time;&#xD;
+		System.out.println(&quot;Tiempo de busqueda de la persona: &quot; + personaX + &quot; en &quot; + time + &quot; nanosegundos&quot;);&#xD;
+		System.out.println(((encontrado) ? &quot;Encontrado&quot; : &quot;No encontrado&quot;) + &quot; en &quot; + time + &quot; nanosegundos &quot;);&#xD;
+&#xD;
+		System.out.println(&quot;\nNumero de nodos del arbol binario: &quot; + arbolBB.numeroDeNodos());&#xD;
+		System.out.println(&quot;Altura de arbol binario: &quot; + arbolBB.altura());&#xD;
+		System.out.println(&quot;Altura del subArbol Izquierdo: &quot; + alturaSubArbol(arbolBB.getRaiz().getIz()));&#xD;
+		System.out.println(&quot;Altura del subArbol Derecho: &quot; + alturaSubArbol(arbolBB.getRaiz().getDe()));&#xD;
+		System.out.println(&quot;El mayor dato del Arbol binario es: &quot; + arbolBB.mayor());&#xD;
+		System.out.println(&quot;El menor dato del Arbol binario es: &quot; + arbolBB.menor());&#xD;
+&#xD;
+		arbolBB.eliminar(arbolBB.getRaiz().getClave());&#xD;
+		arbolBB.listarAmplitudNiveles();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fFhsLuaEe6CYP2eCisbAQ" name="buscarB" specification="_8coqoLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fFhsbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fFhsruaEe6CYP2eCisbAQ" name="cedula">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fFhs7uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean resul = false;&#xD;
+		if (arbol != null)&#xD;
+			if (arbol.getClave().getCedula().compareTo(cedula) == 0)&#xD;
+				resul = true;&#xD;
+			else {&#xD;
+				resul = buscarB(arbol.getIz(), cedula);&#xD;
+				if (!resul)&#xD;
+					resul = buscarB(arbol.getDe(), cedula);&#xD;
+			}&#xD;
+		return resul;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fFhtLuaEe6CYP2eCisbAQ" name="buscarBB" specification="_8cp4wbuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fFhtbuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fFhtruaEe6CYP2eCisbAQ" name="cedula">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fFht7uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean resul = false;&#xD;
+		if (arbol != null)&#xD;
+			if (arbol.getClave().getCedula().compareTo(cedula) == 0)&#xD;
+				resul = true;&#xD;
+			else {&#xD;
+				if (arbol.getClave().getCedula().compareTo(cedula)&#xD;
+&#xD;
+						> 0) {&#xD;
+					resul = buscarBB(arbol.getIz(), cedula);&#xD;
+				} else {&#xD;
+					resul = buscarBB(arbol.getDe(), cedula);&#xD;
+				}&#xD;
+			}&#xD;
+		return resul;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fFhuLuaEe6CYP2eCisbAQ" name="alturaSubArbol" specification="_8crG4buaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fFhubuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fFhuruaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Arbol&lt;T> aux = new Arbol&lt;>();&#xD;
+		aux.setRaiz(arbol);&#xD;
+		return aux.altura();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8WjQwLuaEe6CYP2eCisbAQ" name="main" isStatic="true" method="_8fE6oLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8WjQwbuaEe6CYP2eCisbAQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8WlF8LuaEe6CYP2eCisbAQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8coqoLuaEe6CYP2eCisbAQ" name="buscarB" visibility="package" isStatic="true" method="_8fFhsLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8coqobuaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8coqoruaEe6CYP2eCisbAQ" name="cedula">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8coqo7uaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8cp4wbuaEe6CYP2eCisbAQ" name="buscarBB" visibility="package" isStatic="true" method="_8fFhtLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8cp4wruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8cp4w7uaEe6CYP2eCisbAQ" name="cedula">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8cqf0LuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8crG4buaEe6CYP2eCisbAQ" name="alturaSubArbol" visibility="package" isStatic="true" method="_8fFhuLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8crG4ruaEe6CYP2eCisbAQ" name="arbol" type="_8X57oLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8crt8buaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8W1koLuaEe6CYP2eCisbAQ" name="Persona">
+        <ownedAttribute xmi:id="_8etuQLuaEe6CYP2eCisbAQ" name="cedula">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_8etuQbuaEe6CYP2eCisbAQ" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_8eHRUbuaEe6CYP2eCisbAQ" client="_8W1koLuaEe6CYP2eCisbAQ" supplier="_8eGqQLuaEe6CYP2eCisbAQ" contract="_8eGqQLuaEe6CYP2eCisbAQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fGv0LuaEe6CYP2eCisbAQ" name="Persona" specification="_8W2ywLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fGv0buaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fGv0ruaEe6CYP2eCisbAQ" name="cedula">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8fGv07uaEe6CYP2eCisbAQ" type="_8W1koLuaEe6CYP2eCisbAQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.nombre = nombre;&#xD;
+		this.cedula = cedula;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fGv1LuaEe6CYP2eCisbAQ" name="toString" specification="_8W4A4LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fGv1buaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return cedula + &quot;-&quot; + nombre + &quot;; &quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fGv1ruaEe6CYP2eCisbAQ" name="compareTo" specification="_8c8MoLuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8fGv17uaEe6CYP2eCisbAQ" name="p" type="_8W1koLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8fGv2LuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.cedula.compareTo(p.getCedula());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8W2ywLuaEe6CYP2eCisbAQ" name="Persona" method="_8fGv0LuaEe6CYP2eCisbAQ">
+          <eAnnotations xmi:id="_8W3Z0buaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_8W3Z0ruaEe6CYP2eCisbAQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_8W2ywbuaEe6CYP2eCisbAQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8W3Z0LuaEe6CYP2eCisbAQ" name="cedula">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_8W3Z07uaEe6CYP2eCisbAQ" type="_8W1koLuaEe6CYP2eCisbAQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8W4A4LuaEe6CYP2eCisbAQ" name="toString" method="_8fGv1LuaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8W4A4buaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8c8MoLuaEe6CYP2eCisbAQ" name="compareTo" method="_8fGv1ruaEe6CYP2eCisbAQ">
+          <ownedParameter xmi:id="_8c8zsLuaEe6CYP2eCisbAQ" name="p" type="_8W1koLuaEe6CYP2eCisbAQ"/>
+          <ownedParameter xmi:id="_8c8zsbuaEe6CYP2eCisbAQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_8EqPgLuaEe6CYP2eCisbAQ">
+      <eAnnotations xmi:id="_8Eug8LuaEe6CYP2eCisbAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_8E1OoLuaEe6CYP2eCisbAQ" base_Package="_7nP6wLuaEe6CYP2eCisbAQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_8Wb8ALuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8WXDgLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8WowULuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8WoJQLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8Wx6QLuaEe6CYP2eCisbAQ" base_Element="_8WxTMLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_8WzIYLuaEe6CYP2eCisbAQ" base_Element="_8WyhULuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Annotations xmi:id="_8W09kLuaEe6CYP2eCisbAQ" base_Element="_8WxTMLuaEe6CYP2eCisbAQ">
+    <annotations xmi:id="_8W09kbuaEe6CYP2eCisbAQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_8W09kruaEe6CYP2eCisbAQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_8fTkILuaEe6CYP2eCisbAQ" value="&quot;serial&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8W4n8LuaEe6CYP2eCisbAQ" base_Element="_8W4A4LuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Annotations xmi:id="_8W5PALuaEe6CYP2eCisbAQ" base_Element="_8W4A4LuaEe6CYP2eCisbAQ">
+    <annotations xmi:id="_8W5PAbuaEe6CYP2eCisbAQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_8W7rQLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8W6dILuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8XHRcLuaEe6CYP2eCisbAQ" genericsValue="T extends Comparable&lt;T>" base_Element="_8XGDULuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8XZlULuaEe6CYP2eCisbAQ" base_Element="_8XY-QLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Annotations xmi:id="_8XZlUbuaEe6CYP2eCisbAQ" base_Element="_8XY-QLuaEe6CYP2eCisbAQ">
+    <annotations xmi:id="_8XZlUruaEe6CYP2eCisbAQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_8Xj9YLuaEe6CYP2eCisbAQ" genericsValue="T extends Comparable&lt;T>" base_Element="_8XiIMLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8XrSILuaEe6CYP2eCisbAQ" base_Element="_8Xpc8LuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Annotations xmi:id="_8XrSIbuaEe6CYP2eCisbAQ" base_Element="_8Xpc8LuaEe6CYP2eCisbAQ">
+    <annotations xmi:id="_8XrSIruaEe6CYP2eCisbAQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_8XxYwLuaEe6CYP2eCisbAQ" genericsValue="T extends Comparable&lt;T>" base_Element="_8XwKoLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8X0cELuaEe6CYP2eCisbAQ" base_Element="_8Xz1ALuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Annotations xmi:id="_8X1qMLuaEe6CYP2eCisbAQ" base_Element="_8Xz1ALuaEe6CYP2eCisbAQ">
+    <annotations xmi:id="_8X1qMbuaEe6CYP2eCisbAQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8X2RQbuaEe6CYP2eCisbAQ" base_Element="_8X2RQLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Annotations xmi:id="_8X24ULuaEe6CYP2eCisbAQ" base_Element="_8X2RQLuaEe6CYP2eCisbAQ">
+    <annotations xmi:id="_8X24UbuaEe6CYP2eCisbAQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_8X6isLuaEe6CYP2eCisbAQ" genericsValue="T extends Comparable&lt;T>" base_Element="_8X57oLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8ckZMLuaEe6CYP2eCisbAQ" base_Element="_8cjyILuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8cp4wLuaEe6CYP2eCisbAQ" genericsValue="Persona" base_Element="_8coqobuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8crG4LuaEe6CYP2eCisbAQ" genericsValue="Persona" base_Element="_8cp4wruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:TypeParameterDeclaration xmi:id="_8crt8LuaEe6CYP2eCisbAQ" typeParameterDeclarationValue="T extends Comparable&lt;T>" base_Operation="_8crG4buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8crt8ruaEe6CYP2eCisbAQ" base_Element="_8crG4buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8csVALuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8crG4ruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8c8zsruaEe6CYP2eCisbAQ" base_Element="_8c8MoLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Annotations xmi:id="_8c9awLuaEe6CYP2eCisbAQ" base_Element="_8c8MoLuaEe6CYP2eCisbAQ">
+    <annotations xmi:id="_8c9awbuaEe6CYP2eCisbAQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_8dF9oLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dEvgLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dHy0LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dHLwLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dIZ4LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dHLwbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dJA87uaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dIZ4ruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dJoALuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dIZ47uaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dNSYLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dMEQLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dOggLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dNSYruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dQ8wLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dPHkbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dSK4LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dRj0buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dUnILuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dTZALuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dV1QLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dUAELuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dWcULuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dUAEbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dXqcLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dXDYbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dbU0LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8datwLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dci8LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8db74buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ddKAbuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dci8ruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8de_MLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ddxEbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dm7ALuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dmT8LuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dniELuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dmT8buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8doJIruaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8doJILuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dowMLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8doJIbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dpXQLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dowMbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dp-ULuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dowMruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dqlYLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dp-UbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dqlYruaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dp-UruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8drzgLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8drMcLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dsakLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8drMcbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dtBoLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8drMcruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dvd4LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8duPwLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dwE8LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8du20LuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dwE8buaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8du20buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dxTELuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dwE8ruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dx6ILuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dwsALuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dyhMbuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dyhMLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8dzIQbuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8dzIQLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8d2LkLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8d1kgbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8d3ZsLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8d2yobuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8d4n0LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8d4AwLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8eCY0LuaEe6CYP2eCisbAQ" base_Element="_8eBxwLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eDm8LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eC_4ruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8eGDMLuaEe6CYP2eCisbAQ" base_Element="_8eFcIbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8eHRULuaEe6CYP2eCisbAQ" base_Element="_8eGqQLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eHRUruaEe6CYP2eCisbAQ" genericsValue="Persona" base_Element="_8eHRUbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8eKUoLuaEe6CYP2eCisbAQ" base_Element="_8eJtkbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:TypeParameterDeclaration xmi:id="_8eMw4LuaEe6CYP2eCisbAQ" typeParameterDeclarationValue="T extends Comparable&lt;T>" base_Operation="_8eMJ0LuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8eNX8LuaEe6CYP2eCisbAQ" base_Element="_8eMJ0LuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eN_ALuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eMJ0buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ePNILuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eMJ07uaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eP0MLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eMJ1LuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eRCUruaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eQbQ7uaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eS3gLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eSQcLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eS3gruaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eSQcbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eUstLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eUFobuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eV60buaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eVTwruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eXI8LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eWh4ruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8eXwALuaEe6CYP2eCisbAQ" base_Element="_8eXI8buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eY-ILuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eXwAruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ebaYLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eazVbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ecBc7uaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ecBcLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ecogLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ecBcbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eedsLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ed2oLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8efEwLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ed2obuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ehhAbuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eg58ruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eiIEbuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eg587uaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ejWM7uaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ejWMLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8ekkU7uaEe6CYP2eCisbAQ" base_Element="_8ekkULuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Annotations xmi:id="_8elLYLuaEe6CYP2eCisbAQ" base_Element="_8ekkULuaEe6CYP2eCisbAQ">
+    <annotations xmi:id="_8elLYbuaEe6CYP2eCisbAQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_8elycLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8elLY7uaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eoOsLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8enAkruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eoOsbuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8enAk7uaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8esgILuaEe6CYP2eCisbAQ" base_Element="_8er5EbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8esgIruaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8esgIbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8etHMLuaEe6CYP2eCisbAQ" base_Element="_8esgIbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8eu8YLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8euVUbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8eu8YbuaEe6CYP2eCisbAQ" base_Element="_8euVUbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8evjcLuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8eu8YruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8evjcbuaEe6CYP2eCisbAQ" base_Element="_8eu8YruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ewxkbuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ewxkLuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8exYoLuaEe6CYP2eCisbAQ" base_Element="_8ewxkruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8ex_s7uaEe6CYP2eCisbAQ" base_Element="_8ex_sbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8ez04LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ezN0ruaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Generics xmi:id="_8e0b8LuaEe6CYP2eCisbAQ" genericsValue="T" base_Element="_8ez04buaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8fcHAruaEe6CYP2eCisbAQ" base_Element="_8fcHALuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8fdVILuaEe6CYP2eCisbAQ" base_Element="_8fcuELuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8fd8MLuaEe6CYP2eCisbAQ" base_Element="_8fdVIbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8fejQLuaEe6CYP2eCisbAQ" base_Element="_8fd8MbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8ffxYLuaEe6CYP2eCisbAQ" base_Element="_8ffKULuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8ffxY7uaEe6CYP2eCisbAQ" base_Element="_8ffxYbuaEe6CYP2eCisbAQ"/>
+  <UMLLabProfile:Reference xmi:id="_8fgYcLuaEe6CYP2eCisbAQ" base_Element="_8ffxZLuaEe6CYP2eCisbAQ"/>
+</xmi:XMI>

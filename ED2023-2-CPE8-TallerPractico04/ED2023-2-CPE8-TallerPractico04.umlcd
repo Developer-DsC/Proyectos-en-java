@@ -1,0 +1,2297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_75BnQLuaEe6CYP2eCisbAQ">
+  <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_7nP6wLuaEe6CYP2eCisbAQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8spckLuaEe6CYP2eCisbAQ" sourceAnchor="154.0,0.0" targetAnchor="0.0,43.0" target="_8swKQLuaEe6CYP2eCisbAQ" source="_8swKQLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fcuELuaEe6CYP2eCisbAQ"/>
+    <bendpoints xmi:id="_lCMHgLucEe6CYP2eCisbAQ" sourceY="-98" targetX="155" targetY="-143"/>
+    <bendpoints xmi:id="_lCMHgbucEe6CYP2eCisbAQ" sourceX="-264" sourceY="-104" targetX="-109" targetY="-149"/>
+    <bendpoints xmi:id="_lCMHgrucEe6CYP2eCisbAQ" sourceX="-260" sourceY="45" targetX="-105"/>
+    <stereotypes xmi:id="_8ssf4ruaEe6CYP2eCisbAQ" name="Reference">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fdVILuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8srRwLuaEe6CYP2eCisbAQ" text="">
+      <visualProperties xmi:id="_84I64LuaEe6CYP2eCisbAQ" position="213.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8ssf4LuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fcuEbuaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84IT0ruaEe6CYP2eCisbAQ" position="-20.0,-50.0"/>
+      <visibility xmi:id="_8stG8buaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8stG8LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8ssf4buaEe6CYP2eCisbAQ" aggregationKind="NONE" name="siguiente" navigable="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8esgIbuaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84I64buaEe6CYP2eCisbAQ" position="-68.0,3.0"/>
+      <stereotypes xmi:id="_U54nMLucEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8esgIruaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_U54nMbucEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8etHMLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8stG87uaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8stG8ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8svjMLuaEe6CYP2eCisbAQ" source="_8swKQLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fcHALuaEe6CYP2eCisbAQ"/>
+    <stereotypes xmi:id="_8svjMbuaEe6CYP2eCisbAQ" name="Reference">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fcHAruaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8svjMruaEe6CYP2eCisbAQ" text=""/>
+    <sourceRole xmi:id="_8svjM7uaEe6CYP2eCisbAQ" aggregationKind="NONE" name="">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fcHAbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8svjNLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8svjNbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8svjNruaEe6CYP2eCisbAQ" aggregationKind="NONE" name="dato" navigable="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8er5EbuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_U55OQLucEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8esgILuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8svjN7uaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8svjOLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8tRHoLuaEe6CYP2eCisbAQ" sourceAnchor="440.0,364.0" targetAnchor="104.0,0.0" target="_8swKQLuaEe6CYP2eCisbAQ" source="_8tZDcLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fdVIbuaEe6CYP2eCisbAQ"/>
+    <stereotypes xmi:id="_8tUyAbuaEe6CYP2eCisbAQ" name="Reference">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fd8MLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8tUK8LuaEe6CYP2eCisbAQ" text="">
+      <visualProperties xmi:id="_84KJALuaEe6CYP2eCisbAQ" position="2.0,14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8tUK8buaEe6CYP2eCisbAQ" aggregationKind="NONE" name="">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fdVIruaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84Jh8LuaEe6CYP2eCisbAQ" position="2.0,34.0"/>
+      <visibility xmi:id="_8tWnMbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tWnMLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8tUyALuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="principio" navigable="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8euVUbuaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84KwELuaEe6CYP2eCisbAQ" position="-103.0,-46.0"/>
+      <stereotypes xmi:id="_U55OQbucEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eu8YLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_U55OQrucEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eu8YbuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8tWnM7uaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8tWnMruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8tS80LuaEe6CYP2eCisbAQ" sourceAnchor="410.0,364.0" targetAnchor="74.0,0.0" target="_8swKQLuaEe6CYP2eCisbAQ" source="_8tZDcLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fd8MbuaEe6CYP2eCisbAQ"/>
+    <stereotypes xmi:id="_8tUyBbuaEe6CYP2eCisbAQ" name="Reference">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fejQLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8tUyAruaEe6CYP2eCisbAQ" text="">
+      <visualProperties xmi:id="_84L-MLuaEe6CYP2eCisbAQ" position="-39.0,-16.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8tUyA7uaEe6CYP2eCisbAQ" aggregationKind="NONE" name="">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fd8MruaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84LXILuaEe6CYP2eCisbAQ" position="-17.0,34.0"/>
+      <visibility xmi:id="_8tXOQbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tXOQLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8tUyBLuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="fin" navigable="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eu8YruaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84L-MbuaEe6CYP2eCisbAQ" position="2.0,-80.0"/>
+      <stereotypes xmi:id="_U551ULucEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8evjcLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_U551UbucEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8evjcbuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8tXOQ7uaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8tXOQruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8to7ELuaEe6CYP2eCisbAQ" sourceAnchor="90.0,364.0" targetAnchor="86.0,0.0" dashed="true" superClass="_8ttMgLuaEe6CYP2eCisbAQ" subClass="_8tZDcLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dEvgLuaEe6CYP2eCisbAQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8uFnALuaEe6CYP2eCisbAQ" sourceAnchor="178.0,0.0" targetAnchor="0.0,60.0" target="_8uJRZLuaEe6CYP2eCisbAQ" source="_8uJRZLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ffxYbuaEe6CYP2eCisbAQ"/>
+    <bendpoints xmi:id="_lCMHg7ucEe6CYP2eCisbAQ" sourceY="-69" targetX="180" targetY="-129"/>
+    <bendpoints xmi:id="_lCMHhLucEe6CYP2eCisbAQ" sourceX="-215" sourceY="-77" targetX="-35" targetY="-137"/>
+    <bendpoints xmi:id="_lCMHhbucEe6CYP2eCisbAQ" sourceX="-204" sourceY="60" targetX="-24"/>
+    <stereotypes xmi:id="_8uHcM7uaEe6CYP2eCisbAQ" name="Reference">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ffxY7uaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8uHcMLuaEe6CYP2eCisbAQ" text="">
+      <visualProperties xmi:id="_84NMULuaEe6CYP2eCisbAQ" position="122.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8uHcMbuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ffxYruaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84MlQLuaEe6CYP2eCisbAQ" position="-20.0,-66.0"/>
+      <visibility xmi:id="_8uIqUbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uIqULuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8uHcMruaEe6CYP2eCisbAQ" aggregationKind="NONE" name="iz" navigable="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ezN0ruaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84NMUbuaEe6CYP2eCisbAQ" position="-49.0,-50.0"/>
+      <stereotypes xmi:id="_U551UrucEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ez04LuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8uIqU7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uIqUruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8uFnAbuaEe6CYP2eCisbAQ" sourceAnchor="198.0,0.0" targetAnchor="0.0,80.0" target="_8uJRZLuaEe6CYP2eCisbAQ" source="_8uJRZLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ffxZLuaEe6CYP2eCisbAQ"/>
+    <bendpoints xmi:id="_lCMHhrucEe6CYP2eCisbAQ" sourceY="-160" targetX="200" targetY="-240"/>
+    <bendpoints xmi:id="_lCMHh7ucEe6CYP2eCisbAQ" sourceX="-295" sourceY="-163" targetX="-95" targetY="-243"/>
+    <bendpoints xmi:id="_lCMHiLucEe6CYP2eCisbAQ" sourceX="-289" sourceY="80" targetX="-89"/>
+    <stereotypes xmi:id="_8uIDQruaEe6CYP2eCisbAQ" name="Reference">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fgYcLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8uHcNLuaEe6CYP2eCisbAQ" text="">
+      <visualProperties xmi:id="_84OacLuaEe6CYP2eCisbAQ" position="239.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8uIDQLuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ffxZbuaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84NzYLuaEe6CYP2eCisbAQ" position="-21.0,-119.0"/>
+      <visibility xmi:id="_8uIqVruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uIqVbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8uIDQbuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="de" navigable="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ez04buaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84OacbuaEe6CYP2eCisbAQ" position="-33.0,3.0"/>
+      <stereotypes xmi:id="_U551U7ucEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8e0b8LuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8uIqWLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uIqV7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8uGOELuaEe6CYP2eCisbAQ" target="_8uJRZLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fWAYLuaEe6CYP2eCisbAQ"/>
+    <nameVisual xmi:id="_8uIDQ7uaEe6CYP2eCisbAQ" text=""/>
+    <sourceRole xmi:id="_8uIDRLuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="clave" navigable="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ezN0LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uJRYbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJRYLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8uIDRbuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fWAYbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uJRY7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJRYruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8uQmILuaEe6CYP2eCisbAQ" sourceAnchor="445.0,145.0" targetAnchor="0.0,110.0" target="_8uJRZLuaEe6CYP2eCisbAQ" source="_8uYh8LuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ffKULuaEe6CYP2eCisbAQ"/>
+    <stereotypes xmi:id="_8uR0Q7uaEe6CYP2eCisbAQ" name="Reference">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ffxYLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8uR0QLuaEe6CYP2eCisbAQ" text="">
+      <visualProperties xmi:id="_84PokLuaEe6CYP2eCisbAQ" position="-30.799999999999955,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8uR0QbuaEe6CYP2eCisbAQ" aggregationKind="NONE" name="">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ffKUbuaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84PBgLuaEe6CYP2eCisbAQ" position="13.5,2.0"/>
+      <visibility xmi:id="_8uVeobuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uVeoLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8uR0QruaEe6CYP2eCisbAQ" aggregationKind="NONE" name="raiz" navigable="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ewxkLuaEe6CYP2eCisbAQ"/>
+      <visualProperties xmi:id="_84PokbuaEe6CYP2eCisbAQ" position="-78.0,2.0"/>
+      <stereotypes xmi:id="_U56cYLucEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ewxkbuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8uVeo7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uVeoruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8uRNMLuaEe6CYP2eCisbAQ" sourceAnchor="202.0,0.0" targetAnchor="205.0,745.0" superClass="_8uYh8LuaEe6CYP2eCisbAQ" subClass="_8t6A0LuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8d4AwLuaEe6CYP2eCisbAQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8u0m0LuaEe6CYP2eCisbAQ" sourceAnchor="411.0,179.0" targetAnchor="0.0,172.0" superClass="_8t6A0LuaEe6CYP2eCisbAQ" subClass="_8u7UgLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dzIQLuaEe6CYP2eCisbAQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8u2cALuaEe6CYP2eCisbAQ" targetItem="_8u7UgLuaEe6CYP2eCisbAQ" sourceItem="_8u108LuaEe6CYP2eCisbAQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8u108LuaEe6CYP2eCisbAQ" sourceConnectionVisual="_8u2cALuaEe6CYP2eCisbAQ" text="Árbol AVL parametrizado para objetos comparables genéricos tipo T&#xD;&#xA;&#xD;&#xA;@author Fausto Redrován&#xD;&#xA;@param &lt;T> clase del objeto elemento del árbol" item="_8u7UgLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8fULMLuaEe6CYP2eCisbAQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_8ttMgLuaEe6CYP2eCisbAQ" name="Cola" subclassedBy="_8to7ELuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WoJQLuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8ttMgbuaEe6CYP2eCisbAQ" position="-726.0,1049.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8ttMgruaEe6CYP2eCisbAQ" name="Generics">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WowULuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <visibility xmi:id="_8ttMg7uaEe6CYP2eCisbAQ" label="+"/>
+    <attributes xmi:id="_8ttMhLuaEe6CYP2eCisbAQ" name="nombre">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wu28LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMhbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMhruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8ttMh7uaEe6CYP2eCisbAQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8ttMiLuaEe6CYP2eCisbAQ" name="colaVacia">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wp-cLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMibuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMiruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8ttMi7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wp-cbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8ttMjLuaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8ttMjbuaEe6CYP2eCisbAQ" name="eliminarCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WqlgLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMjruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMj7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8ttMkLuaEe6CYP2eCisbAQ" name="primero">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WqlgbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMkbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMkruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8ttMk7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eEOAbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8ttMlLuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8ttMlbuaEe6CYP2eCisbAQ" name="desencolar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WrzoLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMlruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMl7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8ttMmLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eE1EruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8ttMmbuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8ttMmruaEe6CYP2eCisbAQ" name="quitarPrimero">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WsasLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMm7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMnLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8ttMnbuaEe6CYP2eCisbAQ" name="mostrarEstadoCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wto0LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMnruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMn7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8ttMoLuaEe6CYP2eCisbAQ" name="imprimirCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wto0buaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMobuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMoruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8ttMo7uaEe6CYP2eCisbAQ" name="numElemCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wto0ruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMpLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMpbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8ttMpruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WuP4LuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8ttMp7uaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8ttMqLuaEe6CYP2eCisbAQ" name="invertirCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WuP4buaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMqbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMqruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8ttMq7uaEe6CYP2eCisbAQ" name="encolar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eE1ELuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8ttMrLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8ttMrbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8ttMrruaEe6CYP2eCisbAQ" name="x">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eE1EbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8ttMr7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8ttMsLuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8t6A0LuaEe6CYP2eCisbAQ" name="ArbolBB" generalizations="_8uRNMLuaEe6CYP2eCisbAQ" subclassedBy="_8u0m0LuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XwKoLuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8t6A0buaEe6CYP2eCisbAQ" position="-1262.0,1008.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8t6A0ruaEe6CYP2eCisbAQ" name="Generics">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XxYwLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <visibility xmi:id="_8t6A07uaEe6CYP2eCisbAQ" label="+"/>
+    <attributes xmi:id="_8t6A1LuaEe6CYP2eCisbAQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eymwLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8t6A1buaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8t6A1ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8t6A17uaEe6CYP2eCisbAQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8t6A2LuaEe6CYP2eCisbAQ" name="ArbolBB">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Xx_0LuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8t6A2buaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8t6A2ruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6A27uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6A3LuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Xx_07uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6A3buaEe6CYP2eCisbAQ" name="ArbolBB">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XwKoLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8t6A3ruaEe6CYP2eCisbAQ" name="ArbolBB">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Xym4LuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8t6A37uaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8t6A4LuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6A4buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6A4ruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Xym5LuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6A47uaEe6CYP2eCisbAQ" name="ArbolBB">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XwKoLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6A5LuaEe6CYP2eCisbAQ" name="nombre">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Xym4buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6A5buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6A5ruaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6A57uaEe6CYP2eCisbAQ" name="mayor">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Xz1ALuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8t6A6LuaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X0cELuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8t6A6buaEe6CYP2eCisbAQ" name="Annotations">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X1qMLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8t6A6ruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6A67uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6A7LuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ej9QLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6A7buaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8t6A7ruaEe6CYP2eCisbAQ" name="menor">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X2RQLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8t6A77uaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X2RQbuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8t6A8LuaEe6CYP2eCisbAQ" name="Annotations">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X24ULuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8t6A8buaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6A8ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6A87uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ej9QruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6A9LuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8t6A9buaEe6CYP2eCisbAQ" name="mayor">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8d1kgLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8t6A9ruaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8t6A97uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6A-LuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ej9QbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6A-buaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6A-ruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8d1kgbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6A-7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6A_LuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6A_buaEe6CYP2eCisbAQ" name="menor">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8d2yoLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8t6A_ruaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8t6A_7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6BALuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ej9Q7uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6BAbuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6BAruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8d2yobuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BA7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BBLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6BBbuaEe6CYP2eCisbAQ" name="ArbolBB">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8efr0LuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8t6BBruaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8t6BB7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6BCLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6BCbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8egS4ruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6BCruaEe6CYP2eCisbAQ" name="ArbolBB">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XwKoLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6BC7uaEe6CYP2eCisbAQ" name="clave">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8efr0buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BDLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BDbuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6BDruaEe6CYP2eCisbAQ" name="ArbolBB">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8egS47uaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8t6BD7uaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8t6BELuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6BEbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6BEruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8egS6LuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6BE7uaEe6CYP2eCisbAQ" name="ArbolBB">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XwKoLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6BFLuaEe6CYP2eCisbAQ" name="nombre">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8egS5LuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BFbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BFruaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8t6BF7uaEe6CYP2eCisbAQ" name="clave">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8egS5buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BGLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BGbuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6BGruaEe6CYP2eCisbAQ" name="insertar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eg58LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8t6BG7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6BHLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8t6BHbuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eg58buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BHruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BH7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6BILuaEe6CYP2eCisbAQ" name="insertar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eg58ruaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8t6BIbuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ehhAbuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8t6BIruaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8t6BI7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6BJLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eiIELuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6BJbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6BJruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eg587uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BJ7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BKLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8t6BKbuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ehhALuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BKruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BK7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6BLLuaEe6CYP2eCisbAQ" name="buscar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eivILuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8t6BLbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6BLruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6BL7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eivIruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6BMLuaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6BMbuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eivIbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BMruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BM7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6BNLuaEe6CYP2eCisbAQ" name="buscar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eivI7uaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8t6BNbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8t6BNruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6BN7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ejWMruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6BOLuaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6BObuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ejWMLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BOruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BO7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8t6BPLuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ejWMbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BPbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BPruaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6BP7uaEe6CYP2eCisbAQ" name="nivel">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ekkULuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8t6BQLuaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ekkU7uaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8t6BQbuaEe6CYP2eCisbAQ" name="Annotations">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8elLYLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8t6BQruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8t6BQ7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6BRLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ekkUruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6BRbuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6BRruaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ekkUbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BR7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BSLuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8t6BSbuaEe6CYP2eCisbAQ" name="nivel">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8elLYruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8t6BSruaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8t6BS7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8t6BTLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8elLZ7uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8t6BTbuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8t6BTruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8elLY7uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BT7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BULuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8t6BUbuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8elLZLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BUruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BU7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8t6BVLuaEe6CYP2eCisbAQ" name="nivelDato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8elLZbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BVbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BVruaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8t6BV7uaEe6CYP2eCisbAQ" name="nivelActual">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8elLZruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8t6BWLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8t6BWbuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8uYh8LuaEe6CYP2eCisbAQ" name="Arbol" associationsOut="_8uQmILuaEe6CYP2eCisbAQ" subclassedBy="_8uRNMLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XGDULuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8uYh8buaEe6CYP2eCisbAQ" position="-1265.0,210.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8uYh8ruaEe6CYP2eCisbAQ" name="Generics">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XHRcLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <visibility xmi:id="_8uYh87uaEe6CYP2eCisbAQ" label="+"/>
+    <attributes xmi:id="_8uYh9LuaEe6CYP2eCisbAQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ewKgLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYh9buaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYh9ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uYh97uaEe6CYP2eCisbAQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uYh-LuaEe6CYP2eCisbAQ" name="nombre">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ewKgruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYh-buaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYh-ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uYh-7uaEe6CYP2eCisbAQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uYh_LuaEe6CYP2eCisbAQ" name="raiz">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ewxkLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_U6VTILucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6VTIbucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6bZwLucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_BcZIMLumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcaWULumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BccLgLumEe6FGN7zcUDblw" name="Generics"/>
+      <visibility xmi:id="_8uYh_ruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYh_7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uYiALuaEe6CYP2eCisbAQ" name="NodoArbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8uYiAbuaEe6CYP2eCisbAQ" name="Arbol">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XJtsLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8uYiAruaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8uYiA7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiBLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiBbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XJts7uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiBruaEe6CYP2eCisbAQ" name="Arbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XGDULuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uYiB7uaEe6CYP2eCisbAQ" name="preOrder">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XK70LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiCLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiCbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8uYiCruaEe6CYP2eCisbAQ" name="inOrder">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XMJ8LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiC7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiDLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8uYiDbuaEe6CYP2eCisbAQ" name="postOrder">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XNYELuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiDruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiD7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8uYiELuaEe6CYP2eCisbAQ" name="listarAmplitud">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XN_ILuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiEbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiEruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8uYiE7uaEe6CYP2eCisbAQ" name="altura">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XRCcLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiFLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiFbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiFruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XRpgLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiF7uaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uYiGLuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XTesLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiGbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiGruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8uYiG7uaEe6CYP2eCisbAQ" name="esCompleto">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XUFwLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiHLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiHbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiHruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XUs0LuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiH7uaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uYiILuaEe6CYP2eCisbAQ" name="numeroDeNodos">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XVT4LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiIbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiIruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiI7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XVT4buaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiJLuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uYiJbuaEe6CYP2eCisbAQ" name="numeroDeHojas">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XWiALuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiJruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiJ7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiKLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XXJELuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiKbuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uYiKruaEe6CYP2eCisbAQ" name="menor">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XXwILuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiK7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiLLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiLbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eVTwLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiLruaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uYiL7uaEe6CYP2eCisbAQ" name="mayor">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XYXMLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiMLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiMbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiMruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eWh4LuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiM7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uYiNLuaEe6CYP2eCisbAQ" name="info">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XYXMbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiNbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiNruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8uYiN7uaEe6CYP2eCisbAQ" name="toString">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XY-QLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8uYiOLuaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XZlULuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8uYiObuaEe6CYP2eCisbAQ" name="Annotations">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XZlUbuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8uYiOruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiO7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiPLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XY-QbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiPbuaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uYiPruaEe6CYP2eCisbAQ" name="preOrder">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dLdMLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiP7uaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYiQLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8uYiQbuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dMEQLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiQruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiQ7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiRLuaEe6CYP2eCisbAQ" name="inOrder">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dNSYbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiRbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYiRruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8uYiR7uaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dNSYruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiSLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiSbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiSruaEe6CYP2eCisbAQ" name="postOrder">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dPHkLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiS7uaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYiTLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8uYiTbuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dPHkbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiTruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiT7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiULuaEe6CYP2eCisbAQ" name="listarAmplitud">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dRj0LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiUbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYiUruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8uYiU7uaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dRj0buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiVLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiVbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiVruaEe6CYP2eCisbAQ" name="altura">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dXDYLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiV7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYiWLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiWbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dXDYruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiWruaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYiW7uaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dXDYbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiXLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiXbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiXruaEe6CYP2eCisbAQ" name="listarAmplitudNiveles">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8daGsLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiX7uaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYiYLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8uYiYbuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8datwLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiYruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiY7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiZLuaEe6CYP2eCisbAQ" name="esCompleto">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8db74LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiZbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYiZruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYiZ7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8db74ruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiaLuaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYiabuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8db74buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiaruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYia7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYibLuaEe6CYP2eCisbAQ" name="numeroDeNodos">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dci8buaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYibbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYibruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYib7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ddKALuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYicLuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYicbuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dci8ruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYicruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYic7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYidLuaEe6CYP2eCisbAQ" name="numeroDeHojas">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ddxELuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYidbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYidruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYid7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ddxEruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYieLuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYiebuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ddxEbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYieruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYie7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYifLuaEe6CYP2eCisbAQ" name="Arbol">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eKUobuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8uYifbuaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8uYifruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYif7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYigLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eK7sruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYigbuaEe6CYP2eCisbAQ" name="Arbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XGDULuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYigruaEe6CYP2eCisbAQ" name="nombre">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eKUoruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYig7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYihLuaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYihbuaEe6CYP2eCisbAQ" name="clave">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eKUo7uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYihruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYih7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiiLuaEe6CYP2eCisbAQ" name="Arbol">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eK7s7uaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8uYiibuaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8uYiiruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYii7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYijLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eLiwruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYijbuaEe6CYP2eCisbAQ" name="Arbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XGDULuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYijruaEe6CYP2eCisbAQ" name="clave">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eK7tLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYij7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYikLuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYikbuaEe6CYP2eCisbAQ" name="juntar" staticOperation="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eMJ0LuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8uYikruaEe6CYP2eCisbAQ" name="TypeParameterDeclaration">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eMw4LuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8uYik7uaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eNX8LuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8uYilLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYilbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8uYilruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eMJ0buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYil7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYimLuaEe6CYP2eCisbAQ" name="Arbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XGDULuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYimbuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eMJ0ruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYimruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYim7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYinLuaEe6CYP2eCisbAQ" name="a1">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eMJ07uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYinbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYinruaEe6CYP2eCisbAQ" name="Arbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XGDULuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYin7uaEe6CYP2eCisbAQ" name="a2">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eMJ1LuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYioLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiobuaEe6CYP2eCisbAQ" name="Arbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XGDULuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYioruaEe6CYP2eCisbAQ" name="buscar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eP0MbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYio7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYipLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYipbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eQbQbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYipruaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYip7uaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eQbQLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiqLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiqbuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiqruaEe6CYP2eCisbAQ" name="buscar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eQbQruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYiq7uaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYirLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYirbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eRCUbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYirruaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYir7uaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eQbQ7uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYisLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYisbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYisruaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eRCULuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYis7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYitLuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYitbuaEe6CYP2eCisbAQ" name="eliminar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eRpYLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYitruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYit7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8uYiuLuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eRpYbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiubuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiuruaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiu7uaEe6CYP2eCisbAQ" name="nivel">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eTekLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYivLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uYivbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYivruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eTekruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYiv7uaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYiwLuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eTekbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiwbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiwruaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYiw7uaEe6CYP2eCisbAQ" name="nivel">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eUFoLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYixLuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYixbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYixruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eUss7uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYix7uaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYiyLuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eUFobuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiybuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYiyruaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYiy7uaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eUssLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYizLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYizbuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYizruaEe6CYP2eCisbAQ" name="nivelDato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eUssbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYiz7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYi0LuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYi0buaEe6CYP2eCisbAQ" name="nivelActual">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eUssruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYi0ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYi07uaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYi1LuaEe6CYP2eCisbAQ" name="menor">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eVTwbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYi1buaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYi1ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYi17uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eV60LuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYi2LuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYi2buaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eVTwruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYi2ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYi27uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYi3LuaEe6CYP2eCisbAQ" name="menor">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eVTw7uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYi3buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYi3ruaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYi37uaEe6CYP2eCisbAQ" name="mayor">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eWh4buaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYi4LuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYi4buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYi4ruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eWh5LuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYi47uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYi5LuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eWh4ruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYi5buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYi5ruaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYi57uaEe6CYP2eCisbAQ" name="mayor">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eWh47uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYi6LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYi6buaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uYi6ruaEe6CYP2eCisbAQ" name="inOrderToString">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eXwAbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uYi67uaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uYi7LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uYi7buaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eYXELuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uYi7ruaEe6CYP2eCisbAQ" name="StringBuffer">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eXI8buaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uYi77uaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eXwAruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYi8LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYi8buaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uYi8ruaEe6CYP2eCisbAQ" name="cadena">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eXwA7uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uYi87uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uYi9LuaEe6CYP2eCisbAQ" name="StringBuffer">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eXI8buaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8u7UgLuaEe6CYP2eCisbAQ" comments="_8u108LuaEe6CYP2eCisbAQ" targetConnectionVisual="_8u2cALuaEe6CYP2eCisbAQ" name="ArbolAVL" generalizations="_8u0m0LuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XiIMLuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8u7UgbuaEe6CYP2eCisbAQ" position="-1734.0,1001.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8u7UgruaEe6CYP2eCisbAQ" name="Generics">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Xj9YLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <visibility xmi:id="_8u7Ug7uaEe6CYP2eCisbAQ" label="+"/>
+    <attributes xmi:id="_8u7UhLuaEe6CYP2eCisbAQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8exYobuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8u7UhbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8u7UhruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8u7Uh7uaEe6CYP2eCisbAQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8u7UiLuaEe6CYP2eCisbAQ" name="ArbolAVL">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XlykLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8u7UibuaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8u7UiruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7Ui7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7UjLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XmZoruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7UjbuaEe6CYP2eCisbAQ" name="ArbolAVL">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XiIMLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7UjruaEe6CYP2eCisbAQ" name="nombre">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XlykbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7Uj7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7UkLuaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7UkbuaEe6CYP2eCisbAQ" name="ArbolAVL">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XnAsLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8u7UkruaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8u7Uk7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7UlLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7UlbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XnAs7uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7UlruaEe6CYP2eCisbAQ" name="ArbolAVL">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XiIMLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8u7Ul7uaEe6CYP2eCisbAQ" name="listarAmplitudNiveles">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Xpc8LuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8u7UmLuaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XrSILuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8u7UmbuaEe6CYP2eCisbAQ" name="Annotations">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XrSIbuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8u7UmruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7Um7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8u7UnLuaEe6CYP2eCisbAQ" name="rotacionIzquierda">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dmT8LuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8u7UnbuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dm7ALuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8u7UnruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7Un7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7UoLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dm7AbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7UobuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7UoruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dmT8buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7Uo7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7UpLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7UpbuaEe6CYP2eCisbAQ" name="rotacionDerecha">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8doJILuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8u7UpruaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8doJIruaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8u7Up7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7UqLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7UqbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8doJI7uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7UqruaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7Uq7uaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8doJIbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7UrLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7UrbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7UrruaEe6CYP2eCisbAQ" name="rotacionDobleIzquierda">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dowMbuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8u7Ur7uaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dpXQLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8u7UsLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7UsbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7UsruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dpXQbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7Us7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7UtLuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dowMruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7UtbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7UtruaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7Ut7uaEe6CYP2eCisbAQ" name="rotacionDobleDerecha">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dp-UbuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8u7UuLuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dqlYLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8u7UubuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7UuruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7Uu7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dqlYbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7UvLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7UvbuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dp-UruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7UvruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7Uv7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7UwLuaEe6CYP2eCisbAQ" name="insertar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8drMcLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8u7UwbuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8drzgLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8u7UwruaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8u7Uw7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7UxLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8drzgbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7UxbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7UxruaEe6CYP2eCisbAQ" name="nuevo">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8drMcbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7Ux7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7UyLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8u7UybuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8drMcruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7UyruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7Uy7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7UzLuaEe6CYP2eCisbAQ" name="listarAmplitudNiveles">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dx6IbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8u7UzbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8u7UzruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8u7Uz7uaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dyhMLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7U0LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7U0buaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7U0ruaEe6CYP2eCisbAQ" name="ArbolAVL">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eaMQLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8u7U07uaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8u7U1LuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7U1buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7U1ruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eaMRbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7U17uaEe6CYP2eCisbAQ" name="ArbolAVL">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XiIMLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7U2LuaEe6CYP2eCisbAQ" name="nombre">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eaMQbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7U2buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7U2ruaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8u7U27uaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eaMQruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7U3LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7U3buaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7U3ruaEe6CYP2eCisbAQ" name="ArbolAVL">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eazULuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8u7U37uaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8u7U4LuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7U4buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7U4ruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eazVLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7U47uaEe6CYP2eCisbAQ" name="ArbolAVL">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XiIMLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7U5LuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eazUbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7U5buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7U5ruaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7U57uaEe6CYP2eCisbAQ" name="buscarNodo">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eazVbuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8u7U6LuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ebaYLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8u7U6buaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7U6ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7U67uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ebaYbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7U7LuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7U7buaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eazVruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7U7ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7U77uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7U8LuaEe6CYP2eCisbAQ" name="buscarNodo">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ecBcLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8u7U8buaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ecBc7uaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8u7U8ruaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8u7U87uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8u7U9LuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ecBdLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8u7U9buaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8u7U9ruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ecBcbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7U97uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7U-LuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8u7U-buaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ecBcruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7U-ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7U-7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7U_LuaEe6CYP2eCisbAQ" name="insertar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ecogbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8u7U_buaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7U_ruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8u7U_7uaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ecogruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7VALuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7VAbuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8u7VAruaEe6CYP2eCisbAQ" name="eliminar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8edPkLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8u7VA7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8u7VBLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8u7VBbuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8edPkbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8u7VBruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8u7VB7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8tZDcLuaEe6CYP2eCisbAQ" name="TadCola" associationsOut="_8tRHoLuaEe6CYP2eCisbAQ _8tS80LuaEe6CYP2eCisbAQ" generalizations="_8to7ELuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W6dILuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8tZDcbuaEe6CYP2eCisbAQ" position="-730.0,511.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8tZDcruaEe6CYP2eCisbAQ" name="Generics">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W7rQLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <visibility xmi:id="_8tZDc7uaEe6CYP2eCisbAQ" label="+"/>
+    <attributes xmi:id="_8tZDdLuaEe6CYP2eCisbAQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8etuQruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDdbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8tZDdruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8tZDd7uaEe6CYP2eCisbAQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8tZDeLuaEe6CYP2eCisbAQ" name="principio">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8euVUbuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_U6N-YLucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6OlcLucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_U6OlcbucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6PMgLucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_U6XIUbucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6XvYLucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BcJQkLumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcJ3oLumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BcMT4LumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcM68LumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BccykLumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcdZoLumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_8tZDe7uaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8tZDfLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8tZDfbuaEe6CYP2eCisbAQ" name="NodoCola">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8tZDfruaEe6CYP2eCisbAQ" name="fin">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eu8YruaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_U6PMgbucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6PzkLucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_U6PzkbucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6PzkrucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_U6XvYbucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6YWcLucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BcOwILumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcOwIbumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BcQlULumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcQlUbumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BcenwLumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcenwbumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_8tZDgbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8tZDgruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8tZDg7uaEe6CYP2eCisbAQ" name="NodoCola">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8tZDhLuaEe6CYP2eCisbAQ" name="nombre">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8evjcruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDhbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDhruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8tZDh7uaEe6CYP2eCisbAQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8tZDiLuaEe6CYP2eCisbAQ" name="TadCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W8SULuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8tZDibuaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8tZDiruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDi7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tZDjLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W85YruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tZDjbuaEe6CYP2eCisbAQ" name="TadCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W6dILuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8tZDjruaEe6CYP2eCisbAQ" name="TadCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W-HgLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8tZDj7uaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8tZDkLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDkbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tZDkruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W-ukruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tZDk7uaEe6CYP2eCisbAQ" name="TadCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W6dILuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8tZDlLuaEe6CYP2eCisbAQ" name="nombre">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W-HgbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8tZDlbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8tZDlruaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8tZDl7uaEe6CYP2eCisbAQ" name="colaVacia">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W_VoLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDmLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDmbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tZDmruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W_VobuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tZDm7uaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8tZDnLuaEe6CYP2eCisbAQ" name="eliminarCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W_VoruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDnbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDnruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8tZDn7uaEe6CYP2eCisbAQ" name="primero">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W_Vo7uaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDoLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDobuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tZDoruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eIfcLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tZDo7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8tZDpLuaEe6CYP2eCisbAQ" name="desencolar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W_8sLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDpbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDpruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tZDp7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJGgLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tZDqLuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8tZDqbuaEe6CYP2eCisbAQ" name="quitarPrimero">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XAjwLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDqruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDq7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8tZDrLuaEe6CYP2eCisbAQ" name="mostrarEstadoCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XBK0LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDrbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDrruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8tZDr7uaEe6CYP2eCisbAQ" name="imprimirCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XBK0buaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDsLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDsbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8tZDsruaEe6CYP2eCisbAQ" name="numElemCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XBK0ruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDs7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDtLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tZDtbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XBK07uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tZDtruaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8tZDt7uaEe6CYP2eCisbAQ" name="invertirCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XBK1LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZDuLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDubuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8tZDuruaEe6CYP2eCisbAQ" name="TadCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dGksLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8tZDu7uaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8tZDvLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDvbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tZDvruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dHLxbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tZDv7uaEe6CYP2eCisbAQ" name="TadCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W6dILuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8tZDwLuaEe6CYP2eCisbAQ" name="principio">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dHLwLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8tZDwbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8tZDwruaEe6CYP2eCisbAQ" name="NodoCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8tZDw7uaEe6CYP2eCisbAQ" name="fin">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dHLwbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8tZDxLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8tZDxbuaEe6CYP2eCisbAQ" name="NodoCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8tZDxruaEe6CYP2eCisbAQ" name="nombre">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dHLwruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8tZDx7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8tZDyLuaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8tZDybuaEe6CYP2eCisbAQ" name="TadCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dIZ4buaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8tZDyruaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8tZDy7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZDzLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tZDzbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dJA8ruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tZDzruaEe6CYP2eCisbAQ" name="TadCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W6dILuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8tZDz7uaEe6CYP2eCisbAQ" name="principio">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dIZ4ruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8tZD0LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8tZD0buaEe6CYP2eCisbAQ" name="NodoCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8tZD0ruaEe6CYP2eCisbAQ" name="fin">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dIZ47uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8tZD07uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8tZD1LuaEe6CYP2eCisbAQ" name="NodoCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8tZD1buaEe6CYP2eCisbAQ" name="encolar">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eIfcbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8tZD1ruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tZD17uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8tZD2LuaEe6CYP2eCisbAQ" name="x">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eIfcruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8tZD2buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8tZD2ruaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8sjV8LuaEe6CYP2eCisbAQ" name="TestArbolBB">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wg0gLuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8sjV8buaEe6CYP2eCisbAQ" position="-1764.0,270.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8sjV8ruaEe6CYP2eCisbAQ" label="+"/>
+    <operations xmi:id="_8sjV87uaEe6CYP2eCisbAQ" name="main" staticOperation="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WjQwLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8sjV9LuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8sjV9buaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8sjV9ruaEe6CYP2eCisbAQ" name="args">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WjQwbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8sjV97uaEe6CYP2eCisbAQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_8sjV-LuaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8sjV-buaEe6CYP2eCisbAQ" name="buscarB" staticOperation="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8coqoLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8sjV-ruaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8sjV-7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8sjV_LuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8coqo7uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8sjV_buaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8sjV_ruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8coqobuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8sjV_7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8sjWALuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8sjWAbuaEe6CYP2eCisbAQ" name="cedula">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8coqoruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8sjWAruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8sjWA7uaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8sjWBLuaEe6CYP2eCisbAQ" name="buscarBB" staticOperation="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8cp4wbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8sjWBbuaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8sjWBruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8sjWB7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8cqf0LuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8sjWCLuaEe6CYP2eCisbAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8sjWCbuaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8cp4wruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8sjWCruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8sjWC7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8sjWDLuaEe6CYP2eCisbAQ" name="cedula">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8cp4w7uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8sjWDbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8sjWDruaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8sjWD7uaEe6CYP2eCisbAQ" name="alturaSubArbol" staticOperation="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8crG4buaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8sjWELuaEe6CYP2eCisbAQ" name="TypeParameterDeclaration">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8crt8LuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8sjWEbuaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8crt8ruaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8sjWEruaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8sjWE7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8sjWFLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8crt8buaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8sjWFbuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8sjWFruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8crG4ruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8sjWF7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8sjWGLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8tjbgLuaEe6CYP2eCisbAQ" name="ColaVacia">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WxTMLuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8tjbgbuaEe6CYP2eCisbAQ" position="-1756.0,474.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8tjbgruaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wx6QLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_8tjbg7uaEe6CYP2eCisbAQ" name="Annotations">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W09kLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <visibility xmi:id="_8tjbhLuaEe6CYP2eCisbAQ" label="+"/>
+    <operations xmi:id="_8tjbhbuaEe6CYP2eCisbAQ" name="ColaVacia">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WyhULuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8tjbhruaEe6CYP2eCisbAQ" keyword="create"/>
+      <stereotypes xmi:id="_8tjbh7uaEe6CYP2eCisbAQ" name="StyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WzIYLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8tjbiLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8tkCkLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8tkCkbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WyhVLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8tkCkruaEe6CYP2eCisbAQ" name="ColaVacia">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WxTMLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8tkCk7uaEe6CYP2eCisbAQ" name="msg">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WyhUbuaEe6CYP2eCisbAQ"/>
+        <keywords xmi:id="_8tkClLuaEe6CYP2eCisbAQ" keyword="final"/>
+        <cardinality xmi:id="_8tkClbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8tkClruaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8vG6sLuaEe6CYP2eCisbAQ" name="Eliminar">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XoO0LuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8vG6sbuaEe6CYP2eCisbAQ" position="-1757.0,701.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8vG6sruaEe6CYP2eCisbAQ" label="~"/>
+    <attributes xmi:id="_8vG6s7uaEe6CYP2eCisbAQ" defaultValue="false" name="encontrado">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ex_sbuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8vG6tLuaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ex_s7uaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8vG6tbuaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8vG6truaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8vG6t7uaEe6CYP2eCisbAQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8vG6uLuaEe6CYP2eCisbAQ" name="eliminar2Hijos">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8duPwLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8vG6ubuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dvd4LuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8vG6uruaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8vG6u7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8vG6vLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dvd4buaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8vG6vbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8vG6vruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8du20LuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8vG6v7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8vG6wLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8vG6wbuaEe6CYP2eCisbAQ" name="p">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8du20buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8vG6wruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8vG6w7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8vG6xLuaEe6CYP2eCisbAQ" name="balancear">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dwE8ruaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8vG6xbuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dxTELuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8vG6xruaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8vG6x7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8vG6yLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dxTEbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8vG6ybuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8vG6yruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dwsALuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8vG6y7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8vG6zLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8vG6zbuaEe6CYP2eCisbAQ" name="borrarNodo">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ed2oLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8vG6zruaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eedsLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8vG6z7uaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8vG60LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8vG60buaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eedsbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8vG60ruaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8vG607uaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ed2obuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8vG61LuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8vG61buaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8vG61ruaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ed2oruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8vG617uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8vG62LuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8swKQLuaEe6CYP2eCisbAQ" name="NodoCola" associationsIn="_8spckLuaEe6CYP2eCisbAQ _8tRHoLuaEe6CYP2eCisbAQ _8tS80LuaEe6CYP2eCisbAQ" associationsOut="_8spckLuaEe6CYP2eCisbAQ _8svjMLuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8swKQbuaEe6CYP2eCisbAQ" position="-394.0,1087.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8swKQruaEe6CYP2eCisbAQ" name="Generics">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8Wb8ALuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <visibility xmi:id="_8swKQ7uaEe6CYP2eCisbAQ" label="+"/>
+    <attributes xmi:id="_8swKRLuaEe6CYP2eCisbAQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8erSALuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8swKRbuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8swKRruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8swKR7uaEe6CYP2eCisbAQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8swKSLuaEe6CYP2eCisbAQ" name="dato">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8er5EbuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_U6MwQLucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_U6NXULucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_U6V6MLucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BcFmMLumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BcG0ULumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BchEALumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_8swKSruaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8swKS7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8swKTLuaEe6CYP2eCisbAQ" name="T">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eBxwLuaEe6CYP2eCisbAQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8swKTbuaEe6CYP2eCisbAQ" name="siguiente">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8esgIbuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_U6Js8LucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6KUALucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_U6LiILucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6LiIbucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_U6WhQLucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6XIULucEe6CYP2eCisbAQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Bb9qYLumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_Bb-4gLumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BcBUwLumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcCi4LumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BciSILumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BciSIbumEe6FGN7zcUDblw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_8swKULuaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8swKUbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8swKUruaEe6CYP2eCisbAQ" name="NodoCola">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8swKU7uaEe6CYP2eCisbAQ" name="NodoCola">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eC_4LuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8swKVLuaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8swKVbuaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8swKVruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8swKV7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eC_5buaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8swKWLuaEe6CYP2eCisbAQ" name="NodoCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8swKWbuaEe6CYP2eCisbAQ" name="elemento">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eC_4buaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8swKWruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8swKW7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eBxwLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8swKXLuaEe6CYP2eCisbAQ" name="n">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eC_4ruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8swKXbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8swKXruaEe6CYP2eCisbAQ" name="NodoCola">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8WXDgLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8rhbMLuaEe6CYP2eCisbAQ" name="Persona">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W1koLuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8rhbMbuaEe6CYP2eCisbAQ" position="-1243.0,44.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8rhbMruaEe6CYP2eCisbAQ" label="+"/>
+    <attributes xmi:id="_8rhbM7uaEe6CYP2eCisbAQ" name="cedula">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8etuQLuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8rhbNLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8rhbNbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8rhbNruaEe6CYP2eCisbAQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8rhbN7uaEe6CYP2eCisbAQ" name="nombre">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8etuQbuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8rhbOLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8rhbObuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8rhbOruaEe6CYP2eCisbAQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8rhbO7uaEe6CYP2eCisbAQ" name="Persona">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W2ywLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8rhbPLuaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8rhbPbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8rhbPruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8rhbP7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W3Z07uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8rhbQLuaEe6CYP2eCisbAQ" name="Persona">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W1koLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8rhbQbuaEe6CYP2eCisbAQ" name="nombre">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W2ywbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8rhbQruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8rhbQ7uaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8rhbRLuaEe6CYP2eCisbAQ" name="cedula">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W3Z0LuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8rhbRbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8rhbRruaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8rhbR7uaEe6CYP2eCisbAQ" name="toString">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W4A4LuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8rhbSLuaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W4n8LuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8rhbSbuaEe6CYP2eCisbAQ" name="Annotations">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W5PALuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8rhbSruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8rhbS7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8rhbTLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W4A4buaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8rhbTbuaEe6CYP2eCisbAQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8rhbTruaEe6CYP2eCisbAQ" name="compareTo">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8c8MoLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8rhbT7uaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8c8zsruaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8rhbULuaEe6CYP2eCisbAQ" name="Annotations">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8c9awLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8rhbUbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8rhbUruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8rhbU7uaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8c8zsbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8rhbVLuaEe6CYP2eCisbAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8rhbVbuaEe6CYP2eCisbAQ" name="p">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8c8zsLuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8rhbVruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8rhbV7uaEe6CYP2eCisbAQ" name="Persona">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8W1koLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8uJRZLuaEe6CYP2eCisbAQ" name="NodoArbol" associationsIn="_8uFnALuaEe6CYP2eCisbAQ _8uFnAbuaEe6CYP2eCisbAQ _8uGOELuaEe6CYP2eCisbAQ _8uQmILuaEe6CYP2eCisbAQ" associationsOut="_8uFnALuaEe6CYP2eCisbAQ _8uFnAbuaEe6CYP2eCisbAQ">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8uJRZbuaEe6CYP2eCisbAQ" position="-653.0,245.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8uJRZruaEe6CYP2eCisbAQ" name="Generics">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X6isLuaEe6CYP2eCisbAQ"/>
+    </stereotypes>
+    <visibility xmi:id="_8uJRZ7uaEe6CYP2eCisbAQ" label="+"/>
+    <attributes xmi:id="_8uJRaLuaEe6CYP2eCisbAQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eymwruaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uJRabuaEe6CYP2eCisbAQ" label="-"/>
+      <cardinality xmi:id="_8uJRaruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uJRa7uaEe6CYP2eCisbAQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uJRbLuaEe6CYP2eCisbAQ" name="clave">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ezN0LuaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uJRbbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJRbruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uJRb7uaEe6CYP2eCisbAQ" name="T">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uJRcLuaEe6CYP2eCisbAQ" name="fe">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ezN0buaEe6CYP2eCisbAQ"/>
+      <visibility xmi:id="_8uJRcbuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJRcruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uJRc7uaEe6CYP2eCisbAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uJRdLuaEe6CYP2eCisbAQ" name="iz">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ezN0ruaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_U6QaoLucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6RowLucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6ZkkLucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_BcSagLumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcTooLumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BckHULumEe6FGN7zcUDblw" name="Generics"/>
+      <visibility xmi:id="_8uJRdruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJRd7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uJReLuaEe6CYP2eCisbAQ" name="NodoArbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uJRebuaEe6CYP2eCisbAQ" name="de">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ez04buaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_U6S24LucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6Td8LucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_U6aLoLucEe6CYP2eCisbAQ" name="Generics"/>
+      <stereotypes xmi:id="_BcVd0LumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BcXTALumEe6FGN7zcUDblw" name="Generics"/>
+      <stereotypes xmi:id="_BckuYLumEe6FGN7zcUDblw" name="Generics"/>
+      <visibility xmi:id="_8uJRe7uaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJRfLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uJRfbuaEe6CYP2eCisbAQ" name="NodoArbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8uJRfruaEe6CYP2eCisbAQ" name="NodoArbol">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X7JwLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8uJRf7uaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8uJRgLuaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJRgbuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uJRgruaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X7Jw7uaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uJRg7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uJRhLuaEe6CYP2eCisbAQ" name="NodoArbol">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8enAkLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8uJRhbuaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8uJRhruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJ4cLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uJ4cbuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ennoruaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uJ4cruaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uJ4c7uaEe6CYP2eCisbAQ" name="clave">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8enAkbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uJ4dLuaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uJ4dbuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uJ4druaEe6CYP2eCisbAQ" name="iz">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8enAkruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uJ4d7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uJ4eLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uJ4ebuaEe6CYP2eCisbAQ" name="de">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8enAk7uaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uJ4eruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uJ4e7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uJ4fLuaEe6CYP2eCisbAQ" name="NodoArbol">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eo1wLuaEe6CYP2eCisbAQ"/>
+      <keywords xmi:id="_8uJ4fbuaEe6CYP2eCisbAQ" keyword="create"/>
+      <visibility xmi:id="_8uJ4fruaEe6CYP2eCisbAQ" label="+"/>
+      <cardinality xmi:id="_8uJ4f7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uJ4gLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eo1xLuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uJ4gbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uJ4gruaEe6CYP2eCisbAQ" name="clave">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eo1wbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uJ4g7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uJ4hLuaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8uxjgLuaEe6CYP2eCisbAQ" name="Eliminar">
+    <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8XP0ULuaEe6CYP2eCisbAQ"/>
+    <visualProperties xmi:id="_8uxjgbuaEe6CYP2eCisbAQ" position="-1804.0,80.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8uxjgruaEe6CYP2eCisbAQ" label="~"/>
+    <attributes xmi:id="_8uxjg7uaEe6CYP2eCisbAQ" defaultValue="false" name="encontrado">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8ewxkruaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8uxjhLuaEe6CYP2eCisbAQ" name="LegacyStyledElement">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8exYoLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8uxjhbuaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8uxjhruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_8uxjh7uaEe6CYP2eCisbAQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8uxjiLuaEe6CYP2eCisbAQ" name="eliminar2Hijos">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dTZALuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8uxjibuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dUnILuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8uxjiruaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8uxji7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uxjjLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dUnIbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uxjjbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uxjjruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dUAELuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uxjj7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uxjkLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uxjkbuaEe6CYP2eCisbAQ" name="p">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8dUAEbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uxjkruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uxjk7uaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uxjlLuaEe6CYP2eCisbAQ" name="borrarNodo">
+      <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eSQcLuaEe6CYP2eCisbAQ"/>
+      <stereotypes xmi:id="_8uxjlbuaEe6CYP2eCisbAQ" name="Generics">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eS3gLuaEe6CYP2eCisbAQ"/>
+      </stereotypes>
+      <visibility xmi:id="_8uxjlruaEe6CYP2eCisbAQ" label="~"/>
+      <cardinality xmi:id="_8uxjl7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uxjmLuaEe6CYP2eCisbAQ">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eS3gbuaEe6CYP2eCisbAQ"/>
+        <type xmi:id="_8uxjmbuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uxjmruaEe6CYP2eCisbAQ" name="arbol">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eSQcbuaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uxjm7uaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uxjnLuaEe6CYP2eCisbAQ" name="NodoArbol">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8X57oLuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uxjnbuaEe6CYP2eCisbAQ" name="dato">
+        <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eSQcruaEe6CYP2eCisbAQ"/>
+        <cardinality xmi:id="_8uxjnruaEe6CYP2eCisbAQ" label="1" max="1" min="1"/>
+        <type xmi:id="_8uxjn7uaEe6CYP2eCisbAQ" name="T">
+          <modelElement href="ED2023-2-CPE8-TallerPractico04.uml#_8eJtkbuaEe6CYP2eCisbAQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
